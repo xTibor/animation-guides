@@ -25,14 +25,14 @@
      showgrid="true"
      units="px"
      width="1600px"
-     inkscape:zoom="0.44097222"
-     inkscape:cx="443.33858"
-     inkscape:cy="274.3937"
-     inkscape:window-width="1414"
-     inkscape:window-height="715"
-     inkscape:window-x="253"
-     inkscape:window-y="161"
-     inkscape:window-maximized="0"
+     inkscape:zoom="0.88194444"
+     inkscape:cx="272.69291"
+     inkscape:cy="361.70079"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
@@ -55,17 +55,17 @@
        x="0"
        y="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 0,152.4 203.2,0"
        id="path2784" />
     <path
        id="path2784-3"
-       style="fill:none;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:2.00000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 491.51954 207.35939 L 768 576 "
        transform="scale(0.26458333)" />
     <path
        id="path3797"
-       style="fill:none;stroke:#000000;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:2.00000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 0 0 L 276.48049 368.64063 "
        transform="scale(0.26458333)" />
   </g>
