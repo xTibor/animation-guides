@@ -1,0 +1,13 @@
+TODO:
+    pegbar-acme-3hole.svg:
+        - o -
+        Couldn't find authoritative specs for hole locations, dimensions
+        and required margin size.
+
+    pegbar-acme-5hole-1.svg:
+        - o - o -
+        See: Studio Mir (Legend of Korra)
+
+    pegbar-acme-5hole-2.svg:
+        o - o - o
+        See: Disney (Beauty and the Beast), DreamWorks (Spirit)
