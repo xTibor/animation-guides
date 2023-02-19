@@ -25,9 +25,9 @@
      showgrid="true"
      units="px"
      width="512px"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="250.24999"
-     inkscape:cy="243.49999"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="312.89474"
+     inkscape:cy="275.06453"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
@@ -48,6 +48,36 @@
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="copy_rotate"
+       starting_point="92.749556,76.054606"
+       origin="76.2,76.2"
+       id="path-effect1417"
+       is_visible="true"
+       lpeversion="1"
+       method="normal"
+       num_copies="12"
+       starting_angle="0"
+       rotation_angle="0"
+       gap="-0.01"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false" />
+    <inkscape:path-effect
+       effect="copy_rotate"
+       starting_point="77.2,76.2"
+       origin="76.2,76.2"
+       id="path-effect1186"
+       is_visible="true"
+       lpeversion="1"
+       method="normal"
+       num_copies="12"
+       starting_angle="0"
+       rotation_angle="60"
+       gap="-0.01"
+       copies_to_360="true"
+       mirror_copies="false"
+       split_items="false" />
     <inkscape:path-effect
        effect="copy_rotate"
        starting_point="77.2,76.2"
@@ -1156,5 +1186,26 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:2.11666667px"
          x="18.712852"
          y="51.357159">325</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 76.199999,32.146875 10e-7,38.1 m -22.026563,-32.198 19.050001,32.995568 m -35.174564,-16.871005 32.995569,19.05 m -38.897568,2.976563 38.1,-10e-7 m -32.198,22.026563 32.995568,-19.050001 m -16.871005,35.174568 19.05,-32.995573 M 76.200001,120.25313 76.2,82.153125 m 22.026563,32.197995 -19.05,-32.995563 M 114.35113,98.226562 81.355557,79.176563 M 120.25313,76.199999 82.153125,76.2 M 114.35112,54.173437 81.355557,73.223438 M 98.226562,38.048874 79.176563,71.044443"
+       id="path1009"
+       sodipodi:nodetypes="cc"
+       inkscape:path-effect="#path-effect1186"
+       inkscape:original-d="m 76.199999,32.146875 10e-7,38.1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 80.409495,71.990504 114.08545,38.314545 M 77.740782,70.449722 90.067035,24.447509 M 74.659217,70.449722 62.332959,24.44751 M 71.990504,71.990505 38.314545,38.31455 M 70.449722,74.659218 24.447509,62.332965 M 70.449722,77.740783 24.44751,90.067041 M 71.990505,80.409496 38.31455,114.08545 M 74.659218,81.950278 62.332965,127.95249 M 77.740783,81.950278 90.067041,127.95249 M 80.409496,80.409495 114.08545,114.08545 M 81.950278,77.740782 127.95249,90.067035 M 81.950278,74.659217 127.95249,62.332959"
+       id="path1335"
+       inkscape:transform-center-y="-21.047476"
+       inkscape:transform-center-x="-21.047474"
+       inkscape:path-effect="#path-effect1417"
+       inkscape:original-d="M 80.409495,71.990504 114.08545,38.314545" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;paint-order:stroke fill markers"
+       id="path1002"
+       cx="76.199997"
+       cy="76.199997"
+       r="5.9535093" />
   </g>
 </svg>
