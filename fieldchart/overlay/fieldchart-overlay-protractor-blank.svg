@@ -7,7 +7,7 @@
    viewBox="0 0 152.4 152.4"
    version="1.1"
    id="svg5"
-   sodipodi:docname="protractor.svg"
+   sodipodi:docname="fieldchart-overlay-protractor-blank.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,21 +25,26 @@
      showgrid="true"
      units="px"
      width="512px"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="304.76302"
-     inkscape:cy="257.38687"
+     inkscape:zoom="1.0000001"
+     inkscape:cx="216.49999"
+     inkscape:cy="296.99998"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:snap-grids="true">
+     inkscape:snap-grids="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:object-paths="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-midpoints="false"
+     inkscape:snap-center="true">
     <inkscape:grid
        type="xygrid"
        id="grid824"
-       spacingx="4.7625"
-       spacingy="4.7625" />
+       spacingx="1.190625"
+       spacingy="1.190625" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -138,5 +143,11 @@
        d="m 71.4375,76.2 h 9.525"
        id="path2236"
        sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path53609"
+       cx="76.199997"
+       cy="76.199997"
+       r="2.3812499" />
   </g>
 </svg>
