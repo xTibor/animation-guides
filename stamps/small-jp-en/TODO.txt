@@ -1,0 +1,83 @@
+ノーマル/１号影
+---
+
+ノーマル
+NORMAL COLOR
+
+ノーマルカラー
+NORMAL COLOR
+
+ノーマル段カゲ
+1 TONE DARKER
+
+髪
+HAIR
+
+肌
+SKIN
+
+カゲ不要
+DISUSE SHADOW
+
+影1段落とし
+1 TONE DARKER
+
+影２段落とし
+SHADOW 2 DARKER
+
+服
+CLOTHES
+
+カゲ
+SHADOW
+
+〜のみ影あり
+SHADOW FOR ONLY 〜
+
+他影不要
+NO SHADOW FOR BALANCE
+
+中目パチ
+BLINK ACTION
+
+涙
+TEARS
+
+ブラシ
+BRUSH
+
+カゲ有り
+SHADOW
+
+開きめ
+OPEN EYE
+
+半分開き目
+HALF OPEN EYE
+
+ハイコントラスト
+HIGH CONTRAST
+
+中割り口パク
+L.S.ACTION
+
+セリフ
+LIP SYNCH
+
+タッチ
+TOUCH
+
+マインキャラクター
+MAIN CHARACTER
+
+汗
+SWEAT
+
+他〜をトレス
+BALANCEⓉ
+
+ヌキ
+CLEAR
+
+残りの部分
+BALANCE
