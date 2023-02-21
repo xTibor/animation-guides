@@ -36,22 +36,19 @@ stamp_definitions = [
     ("touch",                    "TOUCH",                    "タッチ"               ),
 ]
 
-with open("stamp-template-horizontal.svg", "r") as stamp_template_file:
-    stamp_template_horizontal = stamp_template_file.read()
+stamp_templates = [
+    ("horizontal",  "stamp-template-horizontal.svg" ),
+    ("vertical",    "stamp-template-vertical.svg"   ),
+]
 
-with open("stamp-template-vertical.svg", "r") as stamp_template_file:
-    stamp_template_vertical = stamp_template_file.read()
+for stamp_template_name, stamp_template_path in stamp_templates:
+    with open(stamp_template_path, "r") as stamp_template_file:
+        stamp_template_data = stamp_template_file.read()
 
-for base_name, en_label, jp_label in stamp_definitions:
-    with open("horizontal/stamp-{}.svg".format(base_name), "w") as stamp_file:
-        stamp_file.write(
-            stamp_template_horizontal
-                .replace("JP_LABEL", jp_label)
-                .replace("EN_LABEL", en_label)
-        )
-    with open("vertical/stamp-{}.svg".format(base_name), "w") as stamp_file:
-        stamp_file.write(
-            stamp_template_vertical
-                .replace("JP_LABEL", jp_label)
-                .replace("EN_LABEL", en_label)
-        )
+    for base_name, en_label, jp_label in stamp_definitions:
+        with open("{}/stamp-{}.svg".format(stamp_template_name, base_name), "w") as stamp_file:
+            stamp_file.write(
+                stamp_template_data
+                    .replace("JP_LABEL", jp_label)
+                    .replace("EN_LABEL", en_label)
+            )
