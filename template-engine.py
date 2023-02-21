@@ -46,7 +46,7 @@ template_engine = {
 
 for (template_base_directory, template) in template_engine.items():
     for template_file_name in template["template_file_names"]:
-        template_svg_path = "{}/templates/template-{}.svg".format(
+        template_svg_path = "{}/.templates/template-{}.svg".format(
             template_base_directory,
             template_file_name,
         )
