@@ -42,6 +42,27 @@ template_engine = {
             ("trace",                   ["Ⓣ",                    "トレス"            ]),
         ],
     },
+    "stamps/large-jp": {
+        "template_prefix": "stamp",
+        "template_file_names": ["horizontal", "vertical"],
+        "template_field_names":                   ["JP_LABEL",     "576"],
+        "template_dataset": [
+            ("confidential",                      ["社外秘",       "160"]),
+            ("draft-final",                       ["決定稿",       "160"]),
+            ("draft-preliminary",                 ["準備稿",       "160"]),
+            ("keyframe-1",                        ["原画",         "110"]),
+            ("layout-1",                          ["レイアウト",   "250"]),
+            ("layout-2",                          ["原図",         "110"]),
+            ("page-x",                            ["PAGE　　",     "200"]),
+            ("prohibited-reproduction",           ["無断転載禁止", "310"]),
+            ("revision-animation-director",       ["作監修正",     "210"]),
+            ("revision-chief-animation-director", ["総作監修正",   "260"]),
+            ("revision-episode-director",         ["演出修正",     "210"]),
+            ("revision-series-director",          ["監督修正",     "210"]),
+            ("scan-required",                     ["要SCAN",       "190"]),
+            ("submitted",                         ["原図出済",     "210"]),
+        ],
+    }
 }
 
 for (template_base_directory, template) in template_engine.items():

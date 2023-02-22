@@ -1,0 +1,26 @@
+<svg viewBox="0 0 110 60" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    .outline {
+        fill: none;
+        paint-order: stroke fill markers;
+        stroke-dasharray: none;
+        stroke-linecap: butt;
+        stroke-linejoin: bevel;
+        stroke-miterlimit: 4;
+        stroke-width: 4px;
+        stroke: #d40000;
+    }
+    .jp_label {
+        dominant-baseline: central;
+        fill: #D40000;
+        font-family: 'Noto Sans CJK JP', sans-serif;
+        font-size: 36pt;
+        font-weight: bold;
+        text-anchor: middle;
+    }
+    </style>
+    <g id="stamp">
+        <rect class="outline" x="0" y="0" width="110" height="60" />
+        <text class="jp_label" x="50%" y="50%">原図</text>
+    </g>
+</svg>
