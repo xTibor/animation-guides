@@ -24,11 +24,13 @@ template_engine = {
             ("clothes-winter",          ["WINTER",                "冬服"              ]),
             ("clothes",                 ["CLOTHES",               "服"                ]),
             ("compound",                ["COMPOUND",              "合成"              ]),
+            ("costume",                 ["COSTUME",               "コスチューム"      ]),
             ("dial-com",                ["DIAL.COM",              "セリフ合成"        ]),
             ("disuse-shadow",           ["DISUSE SHADOW",         "カゲ不要"          ]),
             ("eye",                     ["EYE",                   "目"                ]),
             ("eyebrow",                 ["EYEBROW",               "眉"                ]),
             ("frame",                   ["FRAME",                 "フレーム"          ]),
+            ("free-coloring",           ["FREE COLORING",         "自由彩色"          ]),
             ("ground-shadow",           ["GROUND SHADOW",         "地面の影"          ]),
             ("guest-character",         ["GUEST CHARACTER",       "ゲストキャラクター"]),
             ("hair",                    ["HAIR",                  "髪"                ]),
@@ -36,11 +38,13 @@ template_engine = {
             ("held",                    ["HELD",                  "止め"              ]),
             ("high-contrast",           ["HIGH CONTRAST",         "ハイコントラスト"  ]),
             ("kakikomi",                ["KAKIKOMI",              "〜に描き込み"      ]),
+            ("large-cel",               ["LARGE CEL",             "大判セル"          ]),
             ("lip-synch",               ["LIP SYNCH",             "セリフ"            ]),
             ("long-cel",                ["LONG CEL",              "長セル"            ]),
-            ("ls-action",               ["L.S.ACTION",            "中割り口パク"      ]),
+            ("ls-action",               ["L.S. ACTION",           "中割り口パク"      ]),
             ("ls-covers",               ["L.S. COVERS",           "セリフかぶせ"      ]),
             ("main-character",          ["MAIN CHARACTER",        "マインキャラクター"]),
+            ("no-need",                 ["NO NEED",               "不要"              ]),
             ("no-shadow-for-balance",   ["NO SHADOW FOR BALANCE", "他影不要"          ]),
             ("none",                    ["NONE",                  "なし"              ]),
             ("normal-color-1",          ["NORMAL COLOR",          "ノーマル"          ]),
@@ -51,6 +55,7 @@ template_engine = {
             ("open-eye",                ["OPEN EYE",              "開きめ"            ]),
             ("open-mouth",              ["OPEN MOUTH",            "開け口"            ]),
             ("p-to-edge",               ["Ⓟ TO EDGE",            "セルバレ注意"      ]),
+            ("reference",               ["REFERENCE",             "参考"              ]),
             ("reg-to",                  ["REG. TO",               "〜と組合せ"        ]),
             ("separate-cel",            ["SEPARATE CEL",          "別セル"            ]),
             ("shadow-1",                ["SHADOW",                "カゲ"              ]),
@@ -63,9 +68,13 @@ template_engine = {
             ("slide",                   ["SLIDE",                 "スライド"          ]),
             ("sweat",                   ["SWEAT",                 "汗"                ]),
             ("tears",                   ["TEARS",                 "涙"                ]),
+            ("tongue",                  ["TONGUE",                "舌"                ]),
+            ("top-and-bottom-peg",      ["TOP&BOTTOM PEG",        "上下タップ"        ]),
             ("touch",                   ["TOUCH",                 "タッチ"            ]),
             ("trace",                   ["Ⓣ",                    "トレス"            ]),
             ("uniform",                 ["UNIFORM",               "ユニフォーム"      ]),
+            ("up-and-down-action",      ["UP/DOWN ACTION",        "(動きに)山をつける"]),
+            ("white-of-eye",            ["WHITE OF EYE",          "白目"              ]),
         ],
     },
     "stamps/large-jp": {
@@ -105,7 +114,7 @@ for (template_base_directory, template) in template_engine.items():
         for (instance_name, instance_data) in template["template_dataset"]:
             instance_svg_data = template_svg_data
             for (a, b) in zip(template["template_field_names"], instance_data):
-                instance_svg_data = instance_svg_data.replace(a, b)
+                instance_svg_data = instance_svg_data.replace(a, b.replace("&", "&amp;"))
 
             instance_svg_path = "{}/{}/{}-{}.svg".format(
                 template_base_directory,

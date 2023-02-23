@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="stamp-template-horizontal.svg"
+   sodipodi:docname="template-horizontal.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -29,13 +29,13 @@
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="false"
      inkscape:snap-text-baseline="false"
-     inkscape:zoom="1.017006"
-     inkscape:cx="346.60562"
-     inkscape:cy="111.11046"
-     inkscape:window-width="1366"
-     inkscape:window-height="707"
-     inkscape:window-x="1680"
-     inkscape:window-y="282"
+     inkscape:zoom="2.034012"
+     inkscape:cx="155.11216"
+     inkscape:cy="33.431465"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -65,23 +65,23 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-       x="-0.77046698"
+       x="1.1189998"
        y="19.898382"
        id="text3186-3"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-         x="-0.77046698"
+         x="1.1189998"
          y="19.898382"
          id="tspan1493-7">GUEST CHARACTER</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-       x="-0.29209998"
+       x="0.49529999"
        y="11.335151"
        id="text3186-3-5"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-         x="-0.29209998"
+         x="0.49529999"
          y="11.335151"
          id="tspan1493-7-5">ゲストキャラクター</tspan></text>
   </g>

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="stamp-template-vertical.svg"
+   sodipodi:docname="template-vertical.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -66,23 +66,23 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:start;fill:#d40000;stroke-width:0.264583"
        x="4.5296683"
-       y="-0.77046698"
+       y="1.1189998"
        id="text3186-3"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;writing-mode:tb-rl;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-         x="-1.9743081"
-         y="5.7335095"
+         x="0.86899984"
+         y="4.7796683"
          id="tspan1493-7">KAKIKOMI</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:tb-rl;text-anchor:start;fill:#d40000;stroke-width:0.264583"
        x="14.657499"
-       y="-0.29209998"
+       y="0.49529999"
        id="text3186-3-5"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;writing-mode:tb-rl;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-         x="-2.2165666"
-         y="16.581966"
+         x="-0.29209998"
+         y="15.4449"
          id="tspan1493-7-5">〜に描き込み</tspan></text>
   </g>
 </svg>
