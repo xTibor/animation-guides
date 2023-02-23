@@ -1,0 +1,22 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    .outline {
+        fill: none;
+        paint-order: stroke fill markers;
+        stroke-width: 4px;
+        stroke: #000000;
+    }
+    .mode_label {
+        dominant-baseline: central;
+        fill: #000000;
+        font-family: 'Noto Sans CJK JP', sans-serif;
+        font-size: 30pt;
+        font-weight: bold;
+        text-anchor: middle;
+    }
+    </style>
+    <g id="mode">
+        <circle class="outline" cx="32" cy="32" r="32" />
+        <text class="mode_label" x="50%" y="50%">P</text>
+    </g>
+</svg>
