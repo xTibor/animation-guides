@@ -13,7 +13,7 @@
     .jp_label {
         dominant-baseline: central;
         fill: #D40000;
-        font-family: 'Noto Sans CJK JP', sans-serif;
+        font-family: 'Noto Serif CJK JP', sans-serif;
         font-size: 36pt;
         font-weight: bold;
         text-anchor: middle;
