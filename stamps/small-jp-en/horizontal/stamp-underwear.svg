@@ -29,13 +29,13 @@
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="false"
      inkscape:snap-text-baseline="false"
-     inkscape:zoom="2.034012"
-     inkscape:cx="155.11216"
-     inkscape:cy="33.431465"
-     inkscape:window-width="1680"
-     inkscape:window-height="1021"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="1.017006"
+     inkscape:cx="134.2175"
+     inkscape:cy="58.013424"
+     inkscape:window-width="1366"
+     inkscape:window-height="707"
+     inkscape:window-x="1680"
+     inkscape:window-y="282"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -54,20 +54,16 @@
        id="rect1750" />
   </defs>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="stamp"
      inkscape:groupmode="layer"
      id="layer1">
     <text
        xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text1748"
-       style="font-size:24px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1750)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#d40000;stroke-width:0.264583"
        x="1.1189998"
        y="19.898382"
-       id="text3186-3"><tspan
+       id="text3186-3"
+       inkscape:label="en_label"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;text-anchor:start;fill:#d40000;stroke-width:0.264583"
          x="1.1189998"
@@ -75,14 +71,15 @@
          id="tspan1493-7">UNDERWEAR</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;line-height:1;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#d40000;stroke-width:0.264583"
        x="0.49529999"
        y="11.335151"
-       id="text3186-3-5"><tspan
+       id="text3186-3-5"
+       inkscape:label="jp_label"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Noto Serif CJK JP';-inkscape-font-specification:'Noto Serif CJK JP Bold';text-align:start;text-anchor:start;fill:#d40000;stroke-width:0.264583"
-         x="0.49529999"
-         y="11.335151"
+         x="0"
+         y="0"
          id="tspan1493-7-5">パンツ</tspan></text>
   </g>
 </svg>
