@@ -134,6 +134,7 @@ template_engine = {
             ("mask-female",             ["FEMALE MASK",           "メスマスク"        ]),
             ("mask-male",               ["MALE MASK",             "オスマスク"        ]),
             ("match-color-with",        ["MATCH COLOR WITH 〜",   "〜と色合わせ"      ]),
+            ("mawarikomi",              ["MAWARIKOMI",            "回り込み"          ]),
             ("monochrome",              ["MONOCHROME",            "モノクローム"      ]),
             ("monotone",                ["MONOTONE",              "モノトーン"        ]),
             ("mouth-closed",            ["CLOSED MOUTH",          "閉口"              ]),
