@@ -267,8 +267,18 @@ template_engine = {
     }
 }
 
+import os
+
 for (template_base_directory, template) in template_engine.items():
     for template_file_name in template["template_file_names"]:
+        os.makedirs(
+            "{}/{}".format(
+                template_base_directory,
+                template_file_name,
+            ),
+            exist_ok = True,
+        )
+
         template_svg_path = "{}/.templates/template-{}.svg".format(
             template_base_directory,
             template_file_name,
