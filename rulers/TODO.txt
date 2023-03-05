@@ -1,0 +1,7 @@
+TODO: Figure out what easing curve functions these rulers actually describe.
+
+Type 1: f(θ) := ???
+Type 2 (side-to-side alignment): f(θ) := ???
+Type 2 (center-to-side alignment): f(θ) := ???
+
+TODO: Is it possible to describe standard CSS easing functions with these kind of rulers?

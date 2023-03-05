@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="ruler-easing-inout-4f.svg"
+   sodipodi:docname="ruler-easing-type2-4f.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -45,11 +45,6 @@
        id="grid824"
        spacingx="50.8"
        spacingy="19.05" />
-    <inkscape:grid
-       type="xygrid"
-       id="grid828"
-       spacingx="4.7625"
-       spacingy="4.7625" />
   </sodipodi:namedview>
   <defs
      id="defs2">
