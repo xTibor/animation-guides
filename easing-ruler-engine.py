@@ -27,15 +27,15 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
         ruler_primary_lines = ""
         for t in map(lambda line: line / (frames - 1), range(1, frames - 1)):
             ruler_primary_lines += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
-                x = ruler_easing_function(t) * 576.0,
+                x = ruler_easing_function(t) * 576,
             )
 
         ruler_secondary_lines = ""
         for t in map(lambda line: line / 12, range(1, 12)):
             ruler_secondary_lines += '<line class="secondary" x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" />'.format(
-                x1 = t * 288.0,
-                x2 = 576.0 - (t * 288.0),
-                y = t * 384.0,
+                x1 = t * 288,
+                x2 = 576 - (t * 288),
+                y = t * 384,
             )
         ruler_secondary_lines += '<line class="secondary" x1="288" y1="0" x2="288" y2="384" />'
 
