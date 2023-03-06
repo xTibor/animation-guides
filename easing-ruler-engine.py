@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 ruler_easing_functions = {
-    "linear":     lambda t: t,
-    "squared":    lambda t: t * t,
-    "smoothstep": lambda t: t * t * (3 - 2 * t)
+    "linear":      lambda t: t,
+    "ease-in":     lambda t: pow(t, 2.0),
+    "ease-out":    lambda t: 1.0 - pow(1.0 - t, 2.0),
+    "ease-in-out": lambda t: t * t * (3.0 - 2.0 * t),
 }
 
 ruler_svg_style = """
