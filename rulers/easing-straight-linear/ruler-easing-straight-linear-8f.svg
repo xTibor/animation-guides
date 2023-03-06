@@ -1,4 +1,5 @@
 <svg width="576" height="384" viewBox="0 0 576 384" xmlns="http://www.w3.org/2000/svg">
+    
     <style>
     .primary {
         fill: none;
@@ -14,6 +15,7 @@
         stroke-dashoffset: 0;
     }
     </style>
+
     <g id="ruler">
         <polygon class="primary" points="0,0 576,0 288,384" />
         <line class="primary" x1="82.28571428571428" y1="0" x2="288" y2="384" /><line class="primary" x1="164.57142857142856" y1="0" x2="288" y2="384" /><line class="primary" x1="246.85714285714283" y1="0" x2="288" y2="384" /><line class="primary" x1="329.1428571428571" y1="0" x2="288" y2="384" /><line class="primary" x1="411.42857142857144" y1="0" x2="288" y2="384" /><line class="primary" x1="493.71428571428567" y1="0" x2="288" y2="384" />

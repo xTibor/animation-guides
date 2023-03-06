@@ -6,19 +6,39 @@ ruler_easing_functions = {
     "smoothstep": lambda t: t * t * (3 - 2 * t)
 }
 
+ruler_svg_style = """
+    <style>
+    .primary {
+        fill: none;
+        stroke-width: 2px;
+        stroke: #000000;
+    }
+    .secondary {
+        fill: none;
+        stroke-width: 1px;
+        stroke: #000000;
+        stroke-miterlimit: 4;
+        stroke-dasharray: 1, 2;
+        stroke-dashoffset: 0;
+    }
+    </style>
+"""
+
 import os
 from textwrap import dedent
 
+# Easing ruler - straight
+
 for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
     os.makedirs(
-        "rulers/easing-{}".format(
+        "rulers/easing-straight-{}".format(
             ruler_easing_function_name,
         ),
         exist_ok = True,
     )
 
     for frames in range(4, 11):
-        ruler_svg_path = "rulers/easing-{}/ruler-{}-{}f.svg".format(
+        ruler_svg_path = "rulers/easing-straight-{}/ruler-easing-straight-{}-{}f.svg".format(
             ruler_easing_function_name,
             ruler_easing_function_name,
             frames,
@@ -41,21 +61,7 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
 
         ruler_svg_data = dedent("""\
             <svg width="576" height="384" viewBox="0 0 576 384" xmlns="http://www.w3.org/2000/svg">
-                <style>
-                .primary {{
-                    fill: none;
-                    stroke-width: 2px;
-                    stroke: #000000;
-                }}
-                .secondary {{
-                    fill: none;
-                    stroke-width: 1px;
-                    stroke: #000000;
-                    stroke-miterlimit: 4;
-                    stroke-dasharray: 1, 2;
-                    stroke-dashoffset: 0;
-                }}
-                </style>
+                {}
                 <g id="ruler">
                     <polygon class="primary" points="0,0 576,0 288,384" />
                     {}
@@ -63,9 +69,31 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
                 </g>
             </svg>
         """).format(
+            ruler_svg_style,
             ruler_primary_lines,
             ruler_secondary_lines
         )
 
         with open(ruler_svg_path, "w") as ruler_svg_file:
             ruler_svg_file.write(ruler_svg_data)
+
+# Easing ruler - radial
+
+for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+    os.makedirs(
+        "rulers/easing-radial-{}".format(
+            ruler_easing_function_name,
+        ),
+        exist_ok = True,
+    )
+
+    for frames in range(4, 11):
+        for degrees in [90, 120, 180, 240, 270, 360]:
+            ruler_svg_path = "rulers/easing-radial-{}/ruler-easing-radial-{}-{}deg-{}f.svg".format(
+                ruler_easing_function_name,
+                ruler_easing_function_name,
+                degrees,
+                frames,
+            )
+            # TODO
+            print(ruler_svg_path)
