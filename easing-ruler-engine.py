@@ -7,6 +7,8 @@ ruler_easing_functions = {
     "ease-in-out": lambda t: t * t * (3.0 - 2.0 * t),
 }
 
+ruler_frames_range = range(4, 11)
+
 ruler_svg_style = """
     <style>
     .primary {
@@ -29,18 +31,57 @@ import os
 from math import sin, cos, radians
 from textwrap import dedent
 
-# Easing ruler - straight
+# Easing ruler - straight simple
 
 for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
     os.makedirs(
-        "rulers/easing-straight-{}".format(
+        "rulers/easing-straight-simple/{}".format(
             ruler_easing_function_name,
         ),
         exist_ok = True,
     )
 
-    for ruler_frames in range(4, 11):
-        ruler_svg_path = "rulers/easing-straight-{}/ruler-easing-straight-{}-{}f.svg".format(
+    for ruler_frames in ruler_frames_range:
+        ruler_svg_path = "rulers/easing-straight-simple/{}/ruler-easing-straight-simple-{}-{}f.svg".format(
+            ruler_easing_function_name,
+            ruler_easing_function_name,
+            ruler_frames,
+        )
+
+        ruler_svg_contents = ""
+        for t in map(lambda line: line / (ruler_frames - 1), range(0, ruler_frames)):
+            ruler_svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
+                x = ruler_easing_function(t) * 576,
+            )
+
+        ruler_svg_document = dedent("""\
+            <svg width="576" height="24" viewBox="0 0 576 24" xmlns="http://www.w3.org/2000/svg">
+                {}
+                <g id="ruler">
+                    <line class="primary" x1="0" y1="12" x2="576" y2="12" />
+                    {}
+                </g>
+            </svg>
+        """).format(
+            ruler_svg_style,
+            ruler_svg_contents,
+        )
+
+        with open(ruler_svg_path, "w") as ruler_svg_file:
+            ruler_svg_file.write(ruler_svg_document)
+
+# Easing ruler - straight triangle
+
+for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+    os.makedirs(
+        "rulers/easing-straight-triangle/{}".format(
+            ruler_easing_function_name,
+        ),
+        exist_ok = True,
+    )
+
+    for ruler_frames in ruler_frames_range:
+        ruler_svg_path = "rulers/easing-straight-triangle/{}/ruler-easing-straight-triangle-{}-{}f.svg".format(
             ruler_easing_function_name,
             ruler_easing_function_name,
             ruler_frames,
@@ -79,17 +120,19 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
 # Easing ruler - radial
 
 for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
-    os.makedirs(
-        "rulers/easing-radial-{}".format(
-            ruler_easing_function_name,
-        ),
-        exist_ok = True,
-    )
-
-    for ruler_frames in range(4, 11):
-        for ruler_degrees in [90, 120, 180, 240, 270, 360]:
-            ruler_svg_path = "rulers/easing-radial-{}/ruler-easing-radial-{}-{}deg-{}f.svg".format(
+    for ruler_degrees in [90, 120, 180, 240, 270, 360]:
+        os.makedirs(
+            "rulers/easing-radial/{}/{}deg".format(
                 ruler_easing_function_name,
+                ruler_degrees
+            ),
+            exist_ok = True,
+        )
+
+        for ruler_frames in ruler_frames_range:
+            ruler_svg_path = "rulers/easing-radial/{}/{}deg/ruler-easing-radial-{}-{}deg-{}f.svg".format(
+                ruler_easing_function_name,
+                ruler_degrees,
                 ruler_easing_function_name,
                 ruler_degrees,
                 ruler_frames,
