@@ -1,10 +1,26 @@
 #!/usr/bin/env python3
 
+def compose(easing_function_a, easing_function_b):
+    def composed(t):
+        if t < 0.5:
+            return 0.0 + easing_function_a(t * 2.0 - 0.0) / 2.0
+        else:
+            return 0.5 + easing_function_b(t * 2.0 - 1.0) / 2.0
+    return composed
+
+def ease_in(factor):
+    return lambda t: pow(t, factor)
+
+def ease_out(factor):
+    return lambda t: 1.0 - pow(1.0 - t, factor)
+
 ruler_easing_functions = {
     "linear":      lambda t: t,
-    "ease-in":     lambda t: pow(t, 2.0),
-    "ease-out":    lambda t: 1.0 - pow(1.0 - t, 2.0),
-    "ease-in-out": lambda t: t * t * (3.0 - 2.0 * t),
+    "smoothstep":  lambda t: t * t * (3.0 - 2.0 * t),
+
+    "ease-in":     ease_in(2.0),
+    "ease-out":    ease_out(2.0),
+    "ease-in-out": compose(ease_in(2.0), ease_out(2.0)),
 }
 
 ruler_frames_range = range(4, 11)
