@@ -208,3 +208,45 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
 
             with open(ruler_svg_path, "w") as ruler_svg_file:
                 ruler_svg_file.write(ruler_svg_document)
+
+# Easing function graphs
+
+os.makedirs(
+    "rulers/easing-graphs",
+    exist_ok = True,
+)
+for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+    ruler_svg_path = "rulers/easing-graphs/{}.svg".format(
+        ruler_easing_function_name,
+    )
+
+    polyline_resolution = 64
+    polyline_data = ""
+    for t in map(lambda p: p / polyline_resolution, range(0, polyline_resolution + 1)):
+        polyline_data += "{x},{y} ".format(
+            x = t * 576,
+            y = 576 - ruler_easing_function(t) * 576,
+        )
+
+    ruler_svg_contents = '<polyline class="primary" points="{}" />'.format(polyline_data)
+
+    ruler_svg_document = dedent("""\
+        <svg width="576" height="576" viewBox="0 0 576 576" xmlns="http://www.w3.org/2000/svg">
+            {}
+            <g id="ruler">
+                <line class="secondary" x1="0" y1="0" x2="0" y2="576" />
+                <line class="secondary" x1="288" y1="0" x2="288" y2="576" />
+                <line class="secondary" x1="576" y1="0" x2="576" y2="576" />
+                <line class="secondary" x1="0" y1="0" x2="576" y2="0" />
+                <line class="secondary" x1="0" y1="288" x2="576" y2="288" />
+                <line class="secondary" x1="0" y1="576" x2="576" y2="576" />
+                {}
+            </g>
+        </svg>
+    """).format(
+        ruler_svg_style,
+        ruler_svg_contents,
+    )
+
+    with open(ruler_svg_path, "w") as ruler_svg_file:
+        ruler_svg_file.write(ruler_svg_document)
