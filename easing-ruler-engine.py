@@ -14,7 +14,7 @@ def ease_in(factor):
 def ease_out(factor):
     return lambda t: 1.0 - pow(1.0 - t, factor)
 
-ruler_easing_functions = {
+easing_functions = {
     "linear":      lambda t: t,
     "smoothstep":  lambda t: t * t * (3.0 - 2.0 * t),
 
@@ -23,9 +23,9 @@ ruler_easing_functions = {
     "ease-in-out": compose(ease_in(2.0), ease_out(2.0)),
 }
 
-ruler_frames_range = range(4, 11)
+frames_range = range(4, 11)
 
-ruler_svg_style = """
+svg_style = """
     <style>
     .primary {
         fill: none;
@@ -47,30 +47,30 @@ import os
 from math import sin, cos, radians
 from textwrap import dedent
 
-# Easing ruler - straight simple
+# Inbetweening ruler - straight
 
-for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+for (easing_function_name, easing_function) in easing_functions.items():
     os.makedirs(
-        "rulers/easing-straight-simple/{}".format(
-            ruler_easing_function_name,
+        "rulers/inbetweening/straight-simple/{}".format(
+            easing_function_name,
         ),
         exist_ok = True,
     )
 
-    for ruler_frames in ruler_frames_range:
-        ruler_svg_path = "rulers/easing-straight-simple/{}/ruler-easing-straight-simple-{}-{}f.svg".format(
-            ruler_easing_function_name,
-            ruler_easing_function_name,
+    for ruler_frames in frames_range:
+        svg_path = "rulers/inbetweening/straight-simple/{}/ruler-inbetweening-straight-simple-{}-{}f.svg".format(
+            easing_function_name,
+            easing_function_name,
             ruler_frames,
         )
 
-        ruler_svg_contents = ""
+        svg_contents = ""
         for t in map(lambda line: line / (ruler_frames - 1), range(0, ruler_frames)):
-            ruler_svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
-                x = ruler_easing_function(t) * 576,
+            svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
+                x = easing_function(t) * 576,
             )
 
-        ruler_svg_document = dedent("""\
+        svg_document = dedent("""\
             <svg width="576" height="24" viewBox="0 0 576 24" xmlns="http://www.w3.org/2000/svg">
                 {}
                 <g id="ruler">
@@ -79,45 +79,45 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
                 </g>
             </svg>
         """).format(
-            ruler_svg_style,
-            ruler_svg_contents,
+            svg_style,
+            svg_contents,
         )
 
-        with open(ruler_svg_path, "w") as ruler_svg_file:
-            ruler_svg_file.write(ruler_svg_document)
+        with open(svg_path, "w") as svg_file:
+            svg_file.write(svg_document)
 
-# Easing ruler - straight triangle
+# Inbetweening ruler - triangle
 
-for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+for (easing_function_name, easing_function) in easing_functions.items():
     os.makedirs(
-        "rulers/easing-straight-triangle/{}".format(
-            ruler_easing_function_name,
+        "rulers/inbetweening/straight-triangle/{}".format(
+            easing_function_name,
         ),
         exist_ok = True,
     )
 
-    for ruler_frames in ruler_frames_range:
-        ruler_svg_path = "rulers/easing-straight-triangle/{}/ruler-easing-straight-triangle-{}-{}f.svg".format(
-            ruler_easing_function_name,
-            ruler_easing_function_name,
+    for ruler_frames in frames_range:
+        svg_path = "rulers/inbetweening/straight-triangle/{}/ruler-inbetweening-straight-triangle-{}-{}f.svg".format(
+            easing_function_name,
+            easing_function_name,
             ruler_frames,
         )
 
-        ruler_svg_contents = ""
+        svg_contents = ""
         for t in map(lambda line: line / (ruler_frames - 1), range(1, ruler_frames - 1)):
-            ruler_svg_contents += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
-                x = ruler_easing_function(t) * 576,
+            svg_contents += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
+                x = easing_function(t) * 576,
             )
 
         for t in map(lambda line: line / 12, range(1, 12)):
-            ruler_svg_contents += '<line class="secondary" x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" />'.format(
+            svg_contents += '<line class="secondary" x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" />'.format(
                 x1 = t * 288,
                 x2 = 576 - (t * 288),
                 y = t * 384,
             )
-        ruler_svg_contents += '<line class="secondary" x1="288" y1="0" x2="288" y2="384" />'
+        svg_contents += '<line class="secondary" x1="288" y1="0" x2="288" y2="384" />'
 
-        ruler_svg_document = dedent("""\
+        svg_document = dedent("""\
             <svg width="576" height="384" viewBox="0 0 576 384" xmlns="http://www.w3.org/2000/svg">
                 {}
                 <g id="ruler">
@@ -126,30 +126,30 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
                 </g>
             </svg>
         """).format(
-            ruler_svg_style,
-            ruler_svg_contents,
+            svg_style,
+            svg_contents,
         )
 
-        with open(ruler_svg_path, "w") as ruler_svg_file:
-            ruler_svg_file.write(ruler_svg_document)
+        with open(svg_path, "w") as svg_file:
+            svg_file.write(svg_document)
 
-# Easing ruler - radial
+# Inbetweening ruler - radial
 
-for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
+for (easing_function_name, easing_function) in easing_functions.items():
     for ruler_degrees in [90, 120, 180, 240, 270, 360]:
         os.makedirs(
-            "rulers/easing-radial/{}/{}deg".format(
-                ruler_easing_function_name,
+            "rulers/inbetweening/radial/{}/{}deg".format(
+                easing_function_name,
                 ruler_degrees
             ),
             exist_ok = True,
         )
 
-        for ruler_frames in ruler_frames_range:
-            ruler_svg_path = "rulers/easing-radial/{}/{}deg/ruler-easing-radial-{}-{}deg-{}f.svg".format(
-                ruler_easing_function_name,
+        for ruler_frames in frames_range:
+            svg_path = "rulers/inbetweening/radial/{}/{}deg/ruler-inbetweening-radial-{}-{}deg-{}f.svg".format(
+                easing_function_name,
                 ruler_degrees,
-                ruler_easing_function_name,
+                easing_function_name,
                 ruler_degrees,
                 ruler_frames,
             )
@@ -157,7 +157,7 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
             ruler_inner_radius = 22.5
             ruler_outer_radius = 288
 
-            ruler_svg_contents = ""
+            svg_contents = ""
 
             def circle_arc_point(arc_degrees, arc_radius):
                 return (
@@ -182,14 +182,14 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
                 x2, y2 = circle_arc_point(arc_degrees, ruler_outer_radius)
                 return '<line class="{}" x1="{}" y1="{}" x2="{}" y2="{}" />'.format(style_class, x1, y1, x2, y2)
 
-            ruler_svg_contents += draw_circle_arc("primary", ruler_outer_radius)
+            svg_contents += draw_circle_arc("primary", ruler_outer_radius)
             for l in range(1, 6):
-                ruler_svg_contents += draw_circle_arc("secondary", (l / 6) * ruler_outer_radius)
+                svg_contents += draw_circle_arc("secondary", (l / 6) * ruler_outer_radius)
 
             for l in range(0, ruler_frames):
-                ruler_svg_contents += draw_radius("primary", ruler_easing_function(l / (ruler_frames - 1)) * ruler_degrees)
+                svg_contents += draw_radius("primary", easing_function(l / (ruler_frames - 1)) * ruler_degrees)
 
-            ruler_svg_document = dedent("""\
+            svg_document = dedent("""\
                 <svg width="576" height="576" viewBox="0 0 576 576" xmlns="http://www.w3.org/2000/svg">
                     {}
                     <g id="ruler">
@@ -202,22 +202,22 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
                     </g>
                 </svg>
             """).format(
-                ruler_svg_style,
-                ruler_svg_contents,
+                svg_style,
+                svg_contents,
             )
 
-            with open(ruler_svg_path, "w") as ruler_svg_file:
-                ruler_svg_file.write(ruler_svg_document)
+            with open(svg_path, "w") as svg_file:
+                svg_file.write(svg_document)
 
-# Easing function graphs
+# Inbetweening function graphs
 
 os.makedirs(
-    "rulers/easing-graphs",
+    "rulers/inbetweening/functions",
     exist_ok = True,
 )
-for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_functions.items():
-    ruler_svg_path = "rulers/easing-graphs/{}.svg".format(
-        ruler_easing_function_name,
+for (easing_function_name, easing_function) in easing_functions.items():
+    svg_path = "rulers/inbetweening/functions/{}.svg".format(
+        easing_function_name,
     )
 
     polyline_resolution = 64
@@ -225,12 +225,12 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
     for t in map(lambda p: p / polyline_resolution, range(0, polyline_resolution + 1)):
         polyline_data += "{x},{y} ".format(
             x = t * 576,
-            y = 576 - ruler_easing_function(t) * 576,
+            y = 576 - easing_function(t) * 576,
         )
 
-    ruler_svg_contents = '<polyline class="primary" points="{}" />'.format(polyline_data)
+    svg_contents = '<polyline class="primary" points="{}" />'.format(polyline_data)
 
-    ruler_svg_document = dedent("""\
+    svg_document = dedent("""\
         <svg width="576" height="576" viewBox="0 0 576 576" xmlns="http://www.w3.org/2000/svg">
             {}
             <g id="ruler">
@@ -244,9 +244,9 @@ for (ruler_easing_function_name, ruler_easing_function) in ruler_easing_function
             </g>
         </svg>
     """).format(
-        ruler_svg_style,
-        ruler_svg_contents,
+        svg_style,
+        svg_contents,
     )
 
-    with open(ruler_svg_path, "w") as ruler_svg_file:
-        ruler_svg_file.write(ruler_svg_document)
+    with open(svg_path, "w") as svg_file:
+        svg_file.write(svg_document)
