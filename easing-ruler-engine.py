@@ -37,9 +37,7 @@ easing_functions = {
 }
 
 ################################################################################
-# Constants
-
-frames_range = range(4, 11)
+# SVG document generators
 
 svg_style = """
     <style>
@@ -59,14 +57,14 @@ svg_style = """
     </style>
 """
 
-################################################################################
-# SVG document generators
+def svg_format_float(number):
+    return "{:.3f}".format(number).rstrip("0").rstrip(".")
 
 def create_svg_ruler_straight(easing_function, ruler_frames):
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(0, ruler_frames)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
-            x = easing_function(t) * 576,
+            x = svg_format_float(easing_function(t) * 576),
         )
 
     return dedent("""\
@@ -86,14 +84,14 @@ def create_svg_ruler_triangle(easing_function, ruler_frames):
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(1, ruler_frames - 1)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
-            x = easing_function(t) * 576,
+            x = svg_format_float(easing_function(t) * 576),
         )
 
     for t in map(lambda line: line / 12, range(1, 12)):
         svg_contents += '<line class="secondary" x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" />'.format(
-            x1 = t * 288,
-            x2 = 576 - (t * 288),
-            y = t * 384,
+            x1 = svg_format_float(t * 288),
+            x2 = svg_format_float(576 - (t * 288)),
+            y = svg_format_float(t * 384),
         )
     svg_contents += '<line class="secondary" x1="288" y1="0" x2="288" y2="384" />'
 
@@ -126,18 +124,31 @@ def create_svg_ruler_radial(easing_function, ruler_frames, ruler_degrees):
         arc_resolution = 9
 
         x, y = circle_arc_point(0, arc_radius)
-        arc_path_data = "M{} {}".format(x, y)
+        arc_path_data = "M{x} {y}".format(
+            x = svg_format_float(x),
+            y = svg_format_float(y),
+        )
 
         for l in range(0, arc_resolution):
             x, y = circle_arc_point(l / (arc_resolution - 1) * ruler_degrees, arc_radius)
-            arc_path_data += " A {} {} 0 0 0 {} {}".format(arc_radius, arc_radius, x, y)
+            arc_path_data += " A {arc_radius} {arc_radius} 0 0 0 {x} {y}".format(
+                arc_radius = svg_format_float(arc_radius),
+                x = svg_format_float(x),
+                y = svg_format_float(y),
+            )
 
         return '<path class="{}" d="{}" />'.format(style_class, arc_path_data)
 
     def draw_radius(style_class, arc_degrees):
         x1, y1 = circle_arc_point(arc_degrees, ruler_inner_radius)
         x2, y2 = circle_arc_point(arc_degrees, ruler_outer_radius)
-        return '<line class="{}" x1="{}" y1="{}" x2="{}" y2="{}" />'.format(style_class, x1, y1, x2, y2)
+        return '<line class="{}" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
+            style_class,
+            x1 = svg_format_float(x1),
+            y1 = svg_format_float(y1),
+            x2 = svg_format_float(x2),
+            y2 = svg_format_float(y2),
+        )
 
     svg_contents += draw_circle_arc("primary", ruler_outer_radius)
     for l in range(1, 6):
@@ -169,8 +180,8 @@ def create_svg_function_graph(easing_function):
     polyline_data = ""
     for t in map(lambda p: p / polyline_resolution, range(0, polyline_resolution + 1)):
         polyline_data += "{x},{y} ".format(
-            x = t * 576,
-            y = 576 - easing_function(t) * 576,
+            x = svg_format_float(t * 576),
+            y = svg_format_float(576 - easing_function(t) * 576),
         )
 
     svg_contents = '<polyline class="primary" points="{}" />'.format(polyline_data)
@@ -247,15 +258,15 @@ def write_svg_function_graph(easing_function_name, easing_function):
 ################################################################################
 
 for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in frames_range:
+    for ruler_frames in range(4, 11):
         write_svg_ruler_straight(easing_function_name, easing_function, ruler_frames)
 
 for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in frames_range:
+    for ruler_frames in range(4, 11):
         write_svg_ruler_triangle(easing_function_name, easing_function, ruler_frames)
 
 for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in frames_range:
+    for ruler_frames in range(4, 11):
         for ruler_degrees in [90, 120, 180, 240, 270, 360]:
             write_svg_ruler_radial(easing_function_name, easing_function, ruler_frames, ruler_degrees)
 

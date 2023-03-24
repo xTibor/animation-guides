@@ -18,6 +18,6 @@
 
     <g id="ruler">
         <line class="primary" x1="0" y1="12" x2="576" y2="12" />
-        <line class="primary" x1="0.0" y1="0" x2="0.0" y2="24" /><line class="primary" x1="82.28571428571428" y1="0" x2="82.28571428571428" y2="24" /><line class="primary" x1="164.57142857142856" y1="0" x2="164.57142857142856" y2="24" /><line class="primary" x1="246.85714285714283" y1="0" x2="246.85714285714283" y2="24" /><line class="primary" x1="329.1428571428571" y1="0" x2="329.1428571428571" y2="24" /><line class="primary" x1="411.42857142857144" y1="0" x2="411.42857142857144" y2="24" /><line class="primary" x1="493.71428571428567" y1="0" x2="493.71428571428567" y2="24" /><line class="primary" x1="576.0" y1="0" x2="576.0" y2="24" />
+        <line class="primary" x1="0" y1="0" x2="0" y2="24" /><line class="primary" x1="82.286" y1="0" x2="82.286" y2="24" /><line class="primary" x1="164.571" y1="0" x2="164.571" y2="24" /><line class="primary" x1="246.857" y1="0" x2="246.857" y2="24" /><line class="primary" x1="329.143" y1="0" x2="329.143" y2="24" /><line class="primary" x1="411.429" y1="0" x2="411.429" y2="24" /><line class="primary" x1="493.714" y1="0" x2="493.714" y2="24" /><line class="primary" x1="576" y1="0" x2="576" y2="24" />
     </g>
 </svg>
