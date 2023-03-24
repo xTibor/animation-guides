@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import os
 from math import sin, cos, radians
 from textwrap import dedent
@@ -7,13 +8,13 @@ from textwrap import dedent
 ################################################################################
 # Easing functions
 
-def compose(easing_function_a, easing_function_b):
-    def composed(t):
+def concat(easing_function_a, easing_function_b):
+    def inner(t):
         if t < 0.5:
             return 0.0 + easing_function_a(t * 2.0 - 0.0) / 2.0
         else:
             return 0.5 + easing_function_b(t * 2.0 - 1.0) / 2.0
-    return composed
+    return inner
 
 def ease_in(factor):
     return lambda t: pow(t, factor)
@@ -33,7 +34,7 @@ easing_functions = {
 
     "ease-in":     ease_in(2.0),
     "ease-out":    ease_out(2.0),
-    "ease-in-out": compose(ease_in(2.0), ease_out(2.0)),
+    "ease-in-out": concat(ease_in(2.0), ease_out(2.0)),
 }
 
 ################################################################################
@@ -60,7 +61,9 @@ svg_style = """
 def svg_format_float(number):
     return "{:.3f}".format(number).rstrip("0").rstrip(".")
 
-def create_svg_ruler_straight(easing_function, ruler_frames):
+def create_svg_ruler_straight(easing_function, **kwargs):
+    ruler_frames = kwargs["ruler_frames"]
+
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(0, ruler_frames)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
@@ -80,7 +83,9 @@ def create_svg_ruler_straight(easing_function, ruler_frames):
         svg_contents,
     )
 
-def create_svg_ruler_triangle(easing_function, ruler_frames):
+def create_svg_ruler_triangle(easing_function, **kwargs):
+    ruler_frames = kwargs["ruler_frames"]
+
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(1, ruler_frames - 1)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
@@ -108,7 +113,10 @@ def create_svg_ruler_triangle(easing_function, ruler_frames):
         svg_contents,
     )
 
-def create_svg_ruler_radial(easing_function, ruler_frames, ruler_degrees):
+def create_svg_ruler_radial(easing_function, **kwargs):
+    ruler_frames = kwargs["ruler_frames"]
+    ruler_degrees = kwargs["ruler_degrees"]
+
     ruler_inner_radius = 22.5
     ruler_outer_radius = 288
 
@@ -174,7 +182,7 @@ def create_svg_ruler_radial(easing_function, ruler_frames, ruler_degrees):
         svg_contents,
     )
 
-def create_svg_function_graph(easing_function):
+def create_svg_function_graph(easing_function, **kwargs):
     polyline_resolution = 64
 
     polyline_data = ""
@@ -204,6 +212,13 @@ def create_svg_function_graph(easing_function):
         svg_contents,
     )
 
+create_svg_constructors = {
+    "straight":       create_svg_ruler_straight,
+    "triangle":       create_svg_ruler_triangle,
+    "radial":         create_svg_ruler_radial,
+    "function-graph": create_svg_function_graph,
+}
+
 ################################################################################
 # SVG file writers
 
@@ -213,7 +228,11 @@ def write_svg_ruler_straight(easing_function_name, easing_function, ruler_frames
         easing_function_name,
         ruler_frames,
     )
-    svg_document = create_svg_ruler_straight(easing_function, ruler_frames)
+
+    svg_document = create_svg_ruler_straight(
+        easing_function,
+        ruler_frames = ruler_frames,
+    )
 
     os.makedirs(os.path.dirname(svg_path), exist_ok = True)
     with open(svg_path, "w") as svg_file:
@@ -225,7 +244,11 @@ def write_svg_ruler_triangle(easing_function_name, easing_function, ruler_frames
         easing_function_name,
         ruler_frames,
     )
-    svg_document = create_svg_ruler_triangle(easing_function, ruler_frames)
+
+    svg_document = create_svg_ruler_triangle(
+        easing_function,
+        ruler_frames = ruler_frames,
+    )
 
     os.makedirs(os.path.dirname(svg_path), exist_ok = True)
     with open(svg_path, "w") as svg_file:
@@ -239,7 +262,12 @@ def write_svg_ruler_radial(easing_function_name, easing_function, ruler_frames, 
         ruler_degrees,
         ruler_frames,
     )
-    svg_document = create_svg_ruler_radial(easing_function, ruler_frames, ruler_degrees)
+
+    svg_document = create_svg_ruler_radial(
+        easing_function,
+        ruler_frames = ruler_frames,
+        ruler_degrees = ruler_degrees,
+    )
 
     os.makedirs(os.path.dirname(svg_path), exist_ok = True)
     with open(svg_path, "w") as svg_file:
@@ -249,26 +277,46 @@ def write_svg_function_graph(easing_function_name, easing_function):
     svg_path = "rulers/inbetweening/function-graphs/{}.svg".format(
         easing_function_name,
     )
-    svg_document = create_svg_function_graph(easing_function)
+
+    svg_document = create_svg_function_graph(
+        easing_function,
+    )
 
     os.makedirs(os.path.dirname(svg_path), exist_ok = True)
     with open(svg_path, "w") as svg_file:
         svg_file.write(svg_document)
 
 ################################################################################
+# Main
 
-for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in range(4, 11):
-        write_svg_ruler_straight(easing_function_name, easing_function, ruler_frames)
+parser = argparse.ArgumentParser()
+parser.add_argument("--stdout",               action = "store_true"                )
+parser.add_argument("--easing-function-name", type = str,   default = "ease-in-out")
+parser.add_argument("--ruler-name",           type = str,   default = "straight"   )
+parser.add_argument("--ruler-frames",         type = int,   default = "8"          )
+parser.add_argument("--ruler-degrees",        type = float, default = "360"        )
 
-for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in range(4, 11):
-        write_svg_ruler_triangle(easing_function_name, easing_function, ruler_frames)
+args = parser.parse_args()
 
-for (easing_function_name, easing_function) in easing_functions.items():
-    for ruler_frames in range(4, 11):
-        for ruler_degrees in [90, 120, 180, 240, 270, 360]:
-            write_svg_ruler_radial(easing_function_name, easing_function, ruler_frames, ruler_degrees)
+if args.stdout:
+    print(create_svg_constructors[args.ruler_name](
+        easing_function = easing_functions[args.easing_function_name],
+        ruler_frames = args.ruler_frames,
+        ruler_degrees = args.ruler_degrees,
+    ))
+else:
+    for (easing_function_name, easing_function) in easing_functions.items():
+        for ruler_frames in range(4, 11):
+            write_svg_ruler_straight(easing_function_name, easing_function, ruler_frames)
 
-for (easing_function_name, easing_function) in easing_functions.items():
-    write_svg_function_graph(easing_function_name, easing_function)
+    for (easing_function_name, easing_function) in easing_functions.items():
+        for ruler_frames in range(4, 11):
+            write_svg_ruler_triangle(easing_function_name, easing_function, ruler_frames)
+
+    for (easing_function_name, easing_function) in easing_functions.items():
+        for ruler_frames in range(4, 11):
+            for ruler_degrees in [90, 120, 180, 240, 270, 360]:
+                write_svg_ruler_radial(easing_function_name, easing_function, ruler_frames, ruler_degrees)
+
+    for (easing_function_name, easing_function) in easing_functions.items():
+        write_svg_function_graph(easing_function_name, easing_function)
