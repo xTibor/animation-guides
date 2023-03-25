@@ -2,7 +2,7 @@
 
 import argparse
 import os
-from math import sin, cos, radians
+from math import sin, cos, radians, pi
 from textwrap import dedent
 
 ################################################################################
@@ -16,25 +16,58 @@ def concat(easing_function_a, easing_function_b):
             return 0.5 + easing_function_b(t * 2.0 - 1.0) / 2.0
     return inner
 
+def first_half(easing_function):
+    def inner(t):
+        return easing_function(t / 2.0 + 0.0) * 2.0 - 0.0
+    return inner
+
+def second_half(easing_function):
+    def inner(t):
+        return easing_function(t / 2.0 + 0.5) * 2.0 - 1.0
+    return inner
+
 def ease_in(factor):
     return lambda t: pow(t, factor)
 
 def ease_out(factor):
     return lambda t: 1.0 - pow(1.0 - t, factor)
 
-def linear():
+def ease_inout_linear():
     return lambda t: t
 
-def smoothstep():
+def ease_inout_smoothstep():
     return lambda t: t * t * (3.0 - 2.0 * t)
 
-easing_functions = {
-    "linear":      linear(),
-    "smoothstep":  smoothstep(),
+def ease_inout_smootherstep():
+    return lambda t: t * t * t * (t * (t * 6.0 - 15.0) + 10.0)
 
-    "ease-in":     ease_in(2.0),
-    "ease-out":    ease_out(2.0),
-    "ease-in-out": concat(ease_in(2.0), ease_out(2.0)),
+def ease_inout_cosine():
+    return lambda t: (1.0 - cos(t * pi)) / 2.0
+
+easing_functions = {
+    "ease-inout-linear":       ease_inout_linear(),
+    "ease-inout-smoothstep":   ease_inout_smoothstep(),
+    "ease-inout-smootherstep": ease_inout_smootherstep(),
+
+    "ease-in-pow2":            ease_in(2.0),
+    "ease-out-pow2":           ease_out(2.0),
+    "ease-inout-pow2":         concat(ease_in(2.0), ease_out(2.0)),
+
+    "ease-in-pow3":            ease_in(3.0),
+    "ease-out-pow3":           ease_out(3.0),
+    "ease-inout-pow3":         concat(ease_in(3.0), ease_out(3.0)),
+
+    "ease-in-pow4":            ease_in(4.0),
+    "ease-out-pow4":           ease_out(4.0),
+    "ease-inout-pow4":         concat(ease_in(4.0), ease_out(4.0)),
+
+    "ease-in-pow5":            ease_in(5.0),
+    "ease-out-pow5":           ease_out(5.0),
+    "ease-inout-pow5":         concat(ease_in(5.0), ease_out(5.0)),
+
+    "ease-in-cosine":          first_half(ease_inout_cosine()),
+    "ease-out-cosine":         second_half(ease_inout_cosine()),
+    "ease-inout-cosine":       ease_inout_cosine(),
 }
 
 ################################################################################
@@ -290,11 +323,11 @@ def write_svg_function_graph(easing_function_name, easing_function):
 # Main
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--command",              type = str,                          )
-parser.add_argument("--easing-function-name", type = str,   default = "ease-in-out")
-parser.add_argument("--ruler-name",           type = str,   default = "straight"   )
-parser.add_argument("--ruler-frames",         type = int,   default = "8"          )
-parser.add_argument("--ruler-degrees",        type = float, default = "360"        )
+parser.add_argument("--command",              type = str,                              )
+parser.add_argument("--easing-function-name", type = str,   default = "ease-inout-pow2")
+parser.add_argument("--ruler-name",           type = str,   default = "straight"       )
+parser.add_argument("--ruler-frames",         type = int,   default = "8"              )
+parser.add_argument("--ruler-degrees",        type = float, default = "360"            )
 
 args = parser.parse_args()
 
