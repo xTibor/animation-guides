@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
-import dbus
 import os
+import subprocess
 from math import sin, cos, radians, pi
 from textwrap import dedent
 
@@ -344,9 +344,11 @@ match args.command:
             case "stdout":
                 print(svg_document)
             case "clipboard":
-                session_bus = dbus.SessionBus()
-                klipper = session_bus.get_object("org.kde.klipper", "/klipper")
-                klipper.setClipboardContents(svg_document) # TODO: "image/svg+xml"
+                subprocess.run(
+                    ["xclip", "-selection", "clipboard", "-t", "image/svg+xml"],
+                    encoding = "utf-8",
+                    input = svg_document,
+                )
 
     case "query-easing-function-names":
         for (easing_function_name, easing_function) in easing_functions.items():
