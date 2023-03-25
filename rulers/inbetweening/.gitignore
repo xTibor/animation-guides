@@ -1,0 +1,2 @@
+# Exclude auto-generated ruler SVGs from source control
+*.svg
