@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import dbus
 import os
 from math import sin, cos, radians, pi
 from textwrap import dedent
@@ -324,6 +325,7 @@ def write_svg_function_graph(easing_function_name, easing_function):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--command",              type = str,                              )
+parser.add_argument("--target",               type = str,   default = "stdout"         )
 parser.add_argument("--easing-function-name", type = str,   default = "ease-inout-pow2")
 parser.add_argument("--ruler-name",           type = str,   default = "straight"       )
 parser.add_argument("--ruler-frames",         type = int,   default = "8"              )
@@ -332,12 +334,19 @@ parser.add_argument("--ruler-degrees",        type = float, default = "360"     
 args = parser.parse_args()
 
 match args.command:
-    case "create-svg-stdout":
-        print(create_svg_constructors[args.ruler_name](
+    case "create-svg":
+        svg_document = create_svg_constructors[args.ruler_name](
             easing_function = easing_functions[args.easing_function_name],
             ruler_frames = args.ruler_frames,
             ruler_degrees = args.ruler_degrees,
-        ))
+        )
+        match args.target:
+            case "stdout":
+                print(svg_document)
+            case "clipboard":
+                session_bus = dbus.SessionBus()
+                klipper = session_bus.get_object("org.kde.klipper", "/klipper")
+                klipper.setClipboardContents(svg_document) # TODO: "image/svg+xml"
 
     case "query-easing-function-names":
         for (easing_function_name, easing_function) in easing_functions.items():
