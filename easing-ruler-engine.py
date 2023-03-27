@@ -3,7 +3,7 @@
 import argparse
 import os
 import subprocess
-from math import sin, cos, radians, pi
+from math import sin, cos, radians, pi, sqrt
 from textwrap import dedent
 
 ################################################################################
@@ -45,6 +45,12 @@ def ease_inout_smootherstep():
 def ease_inout_cosine():
     return lambda t: (1.0 - cos(t * pi)) / 2.0
 
+def ease_in_circle():
+    return lambda t: 1.0 - sqrt(1.0 - pow(t, 2.0))
+
+def ease_out_circle():
+    return lambda t: sqrt(1.0 - pow(t - 1.0, 2.0))
+
 easing_functions = {
     "ease-inout-linear":       ease_inout_linear(),
     "ease-inout-smoothstep":   ease_inout_smoothstep(),
@@ -69,6 +75,10 @@ easing_functions = {
     "ease-in-cosine":          first_half(ease_inout_cosine()),
     "ease-out-cosine":         second_half(ease_inout_cosine()),
     "ease-inout-cosine":       ease_inout_cosine(),
+
+    "ease-in-circle":          ease_in_circle(),
+    "ease-out-circle":         ease_out_circle(),
+    "ease-inout-circle":       concat(ease_in_circle(), ease_out_circle()),
 }
 
 ################################################################################
