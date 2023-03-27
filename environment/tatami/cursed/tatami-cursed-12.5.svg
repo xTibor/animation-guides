@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="tatami-12.5-2.svg"
+   sodipodi:docname="tatami-cursed-12.5.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,13 +25,13 @@
      showgrid="true"
      units="px"
      width="576px"
-     inkscape:zoom="0.31181445"
-     inkscape:cx="495.48698"
-     inkscape:cy="243.7347"
-     inkscape:window-width="1366"
-     inkscape:window-height="707"
-     inkscape:window-x="1680"
-     inkscape:window-y="282"
+     inkscape:zoom="0.44097222"
+     inkscape:cx="506.83465"
+     inkscape:cy="446.74016"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -51,91 +51,91 @@
        id="rect1623"
        width="50.799999"
        height="101.6"
-       x="0"
-       y="50.799999" />
+       x="50.799999"
+       y="101.60001" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
+       id="rect1625"
+       width="101.6"
+       height="50.799999"
+       x="101.6"
+       y="152.39999" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
        id="rect1627"
        width="50.799999"
        height="101.6"
-       x="152.39999"
+       x="152.40001"
        y="50.799999" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
        id="rect1629"
        width="101.6"
        height="50.799999"
-       x="50.799999"
+       x="50.800003"
        y="50.799999" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
        id="rect1631"
        width="50.799999"
        height="50.799999"
-       x="203.20001"
+       x="101.6"
+       y="101.6" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
+       id="rect1625-3"
+       width="101.6"
+       height="50.799999"
+       x="101.6"
+       y="-3.0517579e-06" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
+       id="rect1629-6"
+       width="101.6"
+       height="50.799999"
+       x="3.8085091e-12"
+       y="-3.0517579e-06" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
+       id="rect1625-3-7"
+       width="101.6"
+       height="50.799999"
+       x="152.39999"
+       y="203.2" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
+       id="rect1629-6-5"
+       width="101.6"
+       height="50.799999"
+       x="50.800003"
        y="203.2" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
        id="rect1623-3"
        width="50.799999"
        height="101.6"
-       x="152.39999"
-       y="152.39999" />
+       x="4.5776369e-06"
+       y="152.40002" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1623-6"
+       id="rect1627-5"
        width="50.799999"
        height="101.6"
-       x="7.6293946e-07"
-       y="152.39999" />
+       x="4.5776369e-06"
+       y="50.800049" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1623-7"
+       id="rect1623-3-6"
        width="50.799999"
        height="101.6"
-       x="203.2"
-       y="101.59999" />
+       x="203.20001"
+       y="101.59998" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1623-5"
+       id="rect1627-5-2"
        width="50.799999"
        height="101.6"
-       x="203.2"
-       y="0" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1629-3"
-       width="101.6"
-       height="50.799999"
-       x="5.3405761e-06"
-       y="0" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1629-5"
-       width="101.6"
-       height="50.799999"
-       x="101.6"
-       y="7.6293946e-07" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1623-9"
-       width="50.799999"
-       height="101.6"
-       x="101.60001"
-       y="101.60001" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1623-6-1"
-       width="50.799999"
-       height="101.6"
-       x="50.799999"
-       y="101.59999" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:square"
-       id="rect1629-3-2"
-       width="101.6"
-       height="50.799999"
-       x="50.800007"
-       y="203.2" />
+       x="203.20001"
+       y="-5.6843419e-14" />
   </g>
 </svg>
