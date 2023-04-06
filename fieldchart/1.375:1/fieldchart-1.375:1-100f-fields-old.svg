@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="fieldchart-1.375:1-100f-old.svg"
+   sodipodi:docname="fieldchart-1.375:1-100f-fields-old.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +27,8 @@
      height="576px"
      inkscape:snap-page="false"
      inkscape:zoom="0.62362889"
-     inkscape:cx="374.42139"
-     inkscape:cy="389.65481"
+     inkscape:cx="364.80029"
+     inkscape:cy="283.82264"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
@@ -36,12 +36,14 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-text-baseline="true"
-     inkscape:snap-grids="true">
+     inkscape:snap-grids="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid822"
-       spacingx="6.5484375"
-       spacingy="4.7625"
+       spacingx="3.2742188"
+       spacingy="2.38125"
        empspacing="2" />
   </sodipodi:namedview>
   <defs
@@ -53,69 +55,69 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="0"
-       y="157.16251"
+       x="-0.22895303"
+       y="156.16855"
        id="text3013"><tspan
          sodipodi:role="line"
          id="tspan3011"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="0"
-         y="157.16251">100F</tspan></text>
+         x="-0.22895303"
+         y="156.16855">100F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="13.096875"
-       y="147.6375"
+       x="12.961056"
+       y="146.64355"
        id="text3013-3-7"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="13.096875"
-         y="147.6375">80F</tspan></text>
+         x="12.961056"
+         y="146.64355">80F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="26.19375"
-       y="138.1125"
+       x="26.05793"
+       y="137.11855"
        id="text3013-3-7-3-6"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="26.19375"
-         y="138.1125">60F</tspan></text>
+         x="26.05793"
+         y="137.11855">60F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="39.290627"
-       y="128.58749"
+       x="39.224655"
+       y="127.59355"
        id="text3013-3-7-3-6-9-2"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2-1-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="39.290627"
-         y="128.58749">40F</tspan></text>
+         x="39.224655"
+         y="127.59355">40F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="52.387501"
-       y="119.0625"
+       x="52.24004"
+       y="118.06855"
        id="text3013-3-7-3-6-9-3"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2-1-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="52.387501"
-         y="119.0625">20F</tspan></text>
+         x="52.24004"
+         y="118.06855">20F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-13.096875"
-       y="166.6875"
+       x="-13.325829"
+       y="165.69356"
        id="text3013-6"><tspan
          sodipodi:role="line"
          id="tspan3011-1"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="-13.096875"
-         y="166.6875">120F</tspan></text>
+         x="-13.325829"
+         y="165.69356">120F</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect1416"
@@ -158,5 +160,45 @@
        height="76.199997"
        x="52.387501"
        y="38.099998" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect862"
+       width="144.06563"
+       height="104.775"
+       x="32.742188"
+       y="23.8125"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect1054"
+       width="170.25937"
+       height="123.825"
+       x="19.645311"
+       y="14.287499"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect1056"
+       width="196.45312"
+       height="142.875"
+       x="6.5484376"
+       y="4.7624998"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect1058"
+       width="117.87187"
+       height="85.724998"
+       x="45.839062"
+       y="33.337498"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect1060"
+       width="222.64687"
+       height="161.925"
+       x="-6.5484376"
+       y="-4.7624998"
+       ry="3.2587934e-07" />
   </g>
 </svg>

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="fieldchart-2.39:1-100f-old.svg"
+   sodipodi:docname="fieldchart-2.39:1-100f-fields-old.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@
      showgrid="true"
      units="px"
      width="1600px"
-     inkscape:zoom="0.6236289"
-     inkscape:cx="582.8787"
-     inkscape:cy="479.4518"
+     inkscape:zoom="1.2472578"
+     inkscape:cx="226.49688"
+     inkscape:cy="406.49175"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
@@ -36,12 +36,14 @@
      inkscape:current-layer="layer1"
      inkscape:snap-grids="true"
      inkscape:snap-page="true"
-     inkscape:snap-text-baseline="true">
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid824"
-       spacingx="11.382375"
-       spacingy="4.7625001"
+       spacingx="5.6911876"
+       spacingy="2.38125"
        empspacing="2" />
   </sodipodi:namedview>
   <defs
@@ -51,42 +53,42 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect848"
        width="364.23599"
        height="152.39999"
        x="0"
        y="0" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect845"
        width="409.76547"
        height="171.45"
        x="-22.76475"
        y="-9.5249996" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect847"
        width="318.70651"
        height="133.34999"
        x="22.76475"
        y="9.5249996" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect849"
        width="273.177"
        height="114.3"
        x="45.529499"
        y="19.049999" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect851"
        width="227.64751"
        height="95.25"
        x="68.29425"
        y="28.574999" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.52916667;stroke-linecap:round;paint-order:stroke fill markers;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect853"
        width="182.118"
        height="76.199997"
@@ -95,68 +97,108 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="0"
-       y="157.16251"
+       x="-0.22895303"
+       y="156.16855"
        id="text3013"><tspan
          sodipodi:role="line"
          id="tspan3011"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="0"
-         y="157.16251">100F</tspan></text>
+         x="-0.22895303"
+         y="156.16855">100F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-22.76475"
-       y="166.6875"
+       x="-22.993704"
+       y="165.69356"
        id="text3013-3"><tspan
          sodipodi:role="line"
          id="tspan3011-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="-22.76475"
-         y="166.6875">120F</tspan></text>
+         x="-22.993704"
+         y="165.69356">120F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="22.76475"
-       y="147.6375"
+       x="22.628931"
+       y="146.64355"
        id="text3013-3-7"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="22.76475"
-         y="147.6375">80F</tspan></text>
+         x="22.628931"
+         y="146.64355">80F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="45.529499"
-       y="138.1125"
+       x="45.393681"
+       y="137.11855"
        id="text3013-3-7-3-6"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="45.529499"
-         y="138.1125">60F</tspan></text>
+         x="45.393681"
+         y="137.11855">60F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="68.29425"
-       y="128.58751"
+       x="68.228279"
+       y="127.59355"
        id="text3013-3-7-3-6-9-2"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2-1-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="68.29425"
-         y="128.58751">40F</tspan></text>
+         x="68.228279"
+         y="127.59355">40F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="91.058998"
-       y="119.0625"
+       x="90.911537"
+       y="118.06855"
        id="text3013-3-7-3-6-9-3"><tspan
          sodipodi:role="line"
          id="tspan3011-6-5-5-2-1-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="91.058998"
-         y="119.0625">20F</tspan></text>
+         x="90.911537"
+         y="118.06855">20F</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-dasharray:0.264583, 0.79375;paint-order:stroke fill markers"
+       id="rect1425"
+       width="204.88274"
+       height="85.724998"
+       x="79.676628"
+       y="33.337498"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-dasharray:0.264583, 0.79375;paint-order:stroke fill markers"
+       id="rect1427"
+       width="250.41225"
+       height="104.775"
+       x="56.911877"
+       y="23.8125"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-dasharray:0.264583, 0.79375;paint-order:stroke fill markers"
+       id="rect1429"
+       width="295.94174"
+       height="123.825"
+       x="34.147125"
+       y="14.287499"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-dasharray:0.264583, 0.79375;paint-order:stroke fill markers"
+       id="rect1431"
+       width="341.47125"
+       height="142.875"
+       x="11.382375"
+       y="4.7624998"
+       ry="3.2587934e-07" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-dasharray:0.264583, 0.79375;paint-order:stroke fill markers"
+       id="rect1436"
+       width="387.00076"
+       height="161.925"
+       x="-11.382375"
+       y="-4.7624998"
+       ry="3.2587934e-07" />
   </g>
 </svg>
