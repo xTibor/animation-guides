@@ -6,6 +6,8 @@ import subprocess
 from math import sin, cos, radians, pi, sqrt
 from textwrap import dedent
 
+from svg_utils import svg_style, svg_format_float
+
 ################################################################################
 # Easing functions
 
@@ -83,27 +85,6 @@ easing_functions = {
 
 ################################################################################
 # SVG document generators
-
-svg_style = """
-    <style>
-    .primary {
-        fill: none;
-        stroke-width: 2px;
-        stroke: #000000;
-    }
-    .secondary {
-        fill: none;
-        stroke-width: 1px;
-        stroke: #000000;
-        stroke-miterlimit: 4;
-        stroke-dasharray: 1, 2;
-        stroke-dashoffset: 0;
-    }
-    </style>
-"""
-
-def svg_format_float(number):
-    return "{:.3f}".format(number).rstrip("0").rstrip(".")
 
 def create_svg_ruler_straight(easing_function, **kwargs):
     ruler_frames = kwargs["ruler_frames"]
