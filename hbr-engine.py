@@ -11,16 +11,17 @@ head_body_ratios = {
     #                    |      |      waist_width_ratio
     #                    |      |      |      hip_width_ratio
     #                    |      |      |      |      feet_width_ratio
-    #                    |      |      |      |      |      upper_body_length_ratio
-    #                    |      |      |      |      |      |      lower_body_length_ratio
-    #                    |      |      |      |      |      |      |      legs_length_ratio
-    #                    |      |      |      |      |      |      |      |
-    "1:2-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 1 / 4, 1 / 4, 1 / 2],
-    "1:2-long-torso":   [1.000, 0.450, 0.400, 0.500, 0.250, 1 / 3, 1 / 3, 1 / 3],
-    "1:2-standard":     [1.000, 0.600, 0.530, 0.660, 0.333, 1 / 4, 1 / 4, 1 / 2],
-    "1:2.5-standard":   [1.000, 0.675, 0.600, 0.750, 0.375, 1 / 3, 1 / 3, 5 / 6],
-    "1:3-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 1 / 2, 1 / 2,     1],
-    "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500,     1,     1,     3],
+    #                    |      |      |      |      |      neck_length_ratio
+    #                    |      |      |      |      |      |      upper_body_length_ratio
+    #                    |      |      |      |      |      |      |      lower_body_length_ratio
+    #                    |      |      |      |      |      |      |      |      legs_length_ratio
+    #                    |      |      |      |      |      |      |      |      |
+    "1:2-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.025, 1 / 4, 1 / 4, 1 / 2],
+    "1:2-long-torso":   [1.000, 0.450, 0.400, 0.500, 0.250, 0.025, 1 / 3, 1 / 3, 1 / 3],
+    "1:2-standard":     [1.000, 0.600, 0.530, 0.660, 0.333, 0.025, 1 / 4, 1 / 4, 1 / 2],
+    "1:2.5-standard":   [1.000, 0.675, 0.600, 0.750, 0.375, 0.050, 1 / 3, 1 / 3, 5 / 6],
+    "1:3-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.050, 1 / 2, 1 / 2,     1],
+    "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500, 0.100,     1,     1,     3],
 }
 
 # Viewbox coordinates:
@@ -49,16 +50,16 @@ head_body_ratios = {
 #    +-----|---ooooo---|-----+ 384   -  -
 
 def create_hbr_guide(body_ratios):
-    head_width_ratio,        shoulder_width_ratio, waist_width_ratio,       \
-    hip_width_ratio,         feet_width_ratio,     upper_body_length_ratio, \
-    lower_body_length_ratio, legs_length_ratio,                             \
+    head_width_ratio,        shoulder_width_ratio,    waist_width_ratio, \
+    hip_width_ratio,         feet_width_ratio,        neck_length_ratio, \
+    upper_body_length_ratio, lower_body_length_ratio, legs_length_ratio, \
         = body_ratios
 
     svg_content_width = 128
     svg_contents = ""
 
     svg_width = svg_content_width * 2
-    svg_height = (1 + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * svg_content_width
+    svg_height = (1 + neck_length_ratio + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * svg_content_width
 
     def draw_lines(lines):
         svg_data = ""
@@ -99,10 +100,10 @@ def create_hbr_guide(body_ratios):
 
     x_groin    = 0
 
-    y_shoulder = (1                                                                        ) * head_height
-    y_waist    = (1 + upper_body_length_ratio                                              ) * head_height
-    y_hip      = (1 + upper_body_length_ratio + lower_body_length_ratio                    ) * head_height
-    y_feet     = (1 + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * head_height
+    y_shoulder = (1 + neck_length_ratio                                                                        ) * head_height
+    y_waist    = (1 + neck_length_ratio + upper_body_length_ratio                                              ) * head_height
+    y_hip      = (1 + neck_length_ratio + upper_body_length_ratio + lower_body_length_ratio                    ) * head_height
+    y_feet     = (1 + neck_length_ratio + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * head_height
 
     svg_contents += draw_lines([
         ([-x_shoulder, y_shoulder,  x_shoulder, y_shoulder], False),
