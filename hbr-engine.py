@@ -11,17 +11,18 @@ head_body_ratios = {
     #                    |      |      waist_width_ratio
     #                    |      |      |      hip_width_ratio
     #                    |      |      |      |      feet_width_ratio
-    #                    |      |      |      |      |      neck_length_ratio
-    #                    |      |      |      |      |      |      upper_body_length_ratio
-    #                    |      |      |      |      |      |      |      lower_body_length_ratio
-    #                    |      |      |      |      |      |      |      |      legs_length_ratio
-    #                    |      |      |      |      |      |      |      |      |
-    "1:2-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.025, 1 / 4, 1 / 4, 1 / 2],
-    "1:2-long-torso":   [1.000, 0.450, 0.400, 0.500, 0.250, 0.025, 1 / 3, 1 / 3, 1 / 3],
-    "1:2-standard":     [1.000, 0.600, 0.530, 0.660, 0.333, 0.025, 1 / 4, 1 / 4, 1 / 2],
-    "1:2.5-standard":   [1.000, 0.675, 0.600, 0.750, 0.375, 0.050, 1 / 3, 1 / 3, 5 / 6],
-    "1:3-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.050, 1 / 2, 1 / 2,     1],
-    "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500, 0.100,     1,     1,     3],
+    #                    |      |      |      |      |      feet_separation_ratio
+    #                    |      |      |      |      |      |      neck_length_ratio
+    #                    |      |      |      |      |      |      |      upper_body_length_ratio
+    #                    |      |      |      |      |      |      |      |      lower_body_length_ratio
+    #                    |      |      |      |      |      |      |      |      |      legs_length_ratio
+    #                    |      |      |      |      |      |      |      |      |      |
+    "1:2-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.025, 1 / 4, 1 / 4, 1 / 2],
+    "1:2-long-torso":   [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.025, 1 / 3, 1 / 3, 1 / 3],
+    "1:2-standard":     [1.000, 0.600, 0.530, 0.660, 0.333, 0.000, 0.025, 1 / 4, 1 / 4, 1 / 2],
+    "1:2.5-standard":   [1.000, 0.675, 0.600, 0.750, 0.375, 0.000, 0.050, 1 / 3, 1 / 3, 5 / 6],
+    "1:3-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.050, 1 / 2, 1 / 2,     1],
+    "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500, 0.000, 0.100,     1,     1,     3],
 }
 
 # Viewbox coordinates:
@@ -50,9 +51,10 @@ head_body_ratios = {
 #    +-----|---ooooo---|-----+ 384   -  -
 
 def create_hbr_guide(body_ratios):
-    head_width_ratio,        shoulder_width_ratio,    waist_width_ratio, \
-    hip_width_ratio,         feet_width_ratio,        neck_length_ratio, \
-    upper_body_length_ratio, lower_body_length_ratio, legs_length_ratio, \
+    head_width_ratio,        shoulder_width_ratio,    waist_width_ratio,       \
+    hip_width_ratio,         feet_width_ratio,        feet_separation_ratio,   \
+    neck_length_ratio,       upper_body_length_ratio, lower_body_length_ratio, \
+    legs_length_ratio,                                                         \
         = body_ratios
 
     svg_content_width = 128
@@ -93,11 +95,11 @@ def create_hbr_guide(body_ratios):
     ])
 
     # Body
-    x_shoulder = (shoulder_width_ratio * 0.5) * svg_content_width
-    x_waist    = (waist_width_ratio    * 0.5) * svg_content_width
-    x_hip      = (hip_width_ratio      * 0.5) * svg_content_width
-    x_feet     = (feet_width_ratio     * 0.5) * svg_content_width
-
+    x_shoulder = (shoulder_width_ratio  * 0.5) * svg_content_width
+    x_waist    = (waist_width_ratio     * 0.5) * svg_content_width
+    x_hip      = (hip_width_ratio       * 0.5) * svg_content_width
+    x1_feet    = (feet_separation_ratio * 0.5) * svg_content_width
+    x2_feet    = (feet_width_ratio      * 0.5) * svg_content_width + x1_feet
     x_groin    = 0
 
     y_shoulder = (1 + neck_length_ratio                                                                        ) * head_height
@@ -109,11 +111,11 @@ def create_hbr_guide(body_ratios):
         ([-x_shoulder, y_shoulder,  x_shoulder, y_shoulder], False),
         ([-x_waist,    y_waist,     x_waist,    y_waist   ], False),
         ([-x_hip,      y_hip,       x_hip,      y_hip     ], False),
-        ([-x_feet,     y_feet,      x_feet,     y_feet    ], False),
-        ([ x_groin,    y_hip,       x_groin,    y_feet    ], False),
         ([ x_shoulder, y_shoulder,  x_waist,    y_waist   ], True ),
         ([ x_waist,    y_waist,     x_hip,      y_hip     ], True ),
-        ([ x_hip,      y_hip,       x_feet,     y_feet    ], True ),
+        ([ x_groin,    y_hip,       x1_feet,    y_feet,   ], True ),
+        ([ x_hip,      y_hip,       x2_feet,    y_feet,   ], True ),
+        ([ x1_feet,    y_feet,      x2_feet,    y_feet    ], True ),
     ])
 
     return dedent("""\
