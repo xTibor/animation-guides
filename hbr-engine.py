@@ -25,6 +25,20 @@ head_body_ratios = {
     "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500, 0.000, 0.100,     1,     1,     3],
 }
 
+def draw_lines(lines):
+    svg_data = ""
+    for ([(x1, y1), (x2, y2)], mirror) in lines:
+        svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
+            x1 = svg_format_float(x1), y1 = svg_format_float(y1),
+            x2 = svg_format_float(x2), y2 = svg_format_float(y2),
+        )
+        if mirror:
+            svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
+                x1 = svg_format_float(-x1), y1 = svg_format_float(y1),
+                x2 = svg_format_float(-x2), y2 = svg_format_float(y2),
+            )
+    return svg_data
+
 # Viewbox coordinates:
 #
 #    |--------VIEWBOX--------|
@@ -51,10 +65,10 @@ head_body_ratios = {
 #    +-----|---ooooo---|-----+ 384   -  -
 
 def create_hbr_guide(body_ratios):
-    head_width_ratio,        shoulder_width_ratio,    waist_width_ratio,       \
-    hip_width_ratio,         feet_width_ratio,        feet_separation_ratio,   \
-    neck_length_ratio,       upper_body_length_ratio, lower_body_length_ratio, \
-    legs_length_ratio,                                                         \
+    head_width_ratio,  shoulder_width_ratio,    waist_width_ratio,       \
+    hip_width_ratio,   feet_width_ratio,        feet_separation_ratio,   \
+    neck_length_ratio, upper_body_length_ratio, lower_body_length_ratio, \
+    legs_length_ratio,                                                   \
         = body_ratios
 
     svg_content_width = 128
@@ -62,20 +76,6 @@ def create_hbr_guide(body_ratios):
 
     svg_width = svg_content_width * 2
     svg_height = (1 + neck_length_ratio + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * svg_content_width
-
-    def draw_lines(lines):
-        svg_data = ""
-        for ([x1, y1, x2, y2], mirror) in lines:
-            svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-                x1 = svg_format_float(x1), y1 = svg_format_float(y1),
-                x2 = svg_format_float(x2), y2 = svg_format_float(y2),
-            )
-            if mirror:
-                svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-                    x1 = svg_format_float(-x1), y1 = svg_format_float(y1),
-                    x2 = svg_format_float(-x2), y2 = svg_format_float(y2),
-                )
-        return svg_data
 
     # Head
     head_width, head_height = head_width_ratio * svg_content_width, svg_content_width
@@ -89,9 +89,13 @@ def create_hbr_guide(body_ratios):
     )
 
     svg_contents += draw_lines([
-        ([head_width * -0.5,               head_height * 0.5,                       head_width * 0.5,                head_height * 0.5                      ], False),
-        ([head_width *  0.0,               head_height * 0.0,                       head_width * 0.0,                head_height * 1.0                      ], False),
-        ([head_width * (eyes_width * 0.5), head_height * (0.5 - eyes_height * 0.5), head_width * (eyes_width * 0.5), head_height * (0.5 + eyes_height * 0.5)], True ),
+        ([(head_width * -0.5, head_height * 0.5), (head_width * 0.5, head_height * 0.5)], False),
+        ([(head_width *  0.0, head_height * 0.0), (head_width * 0.0, head_height * 1.0)], False),
+    ])
+
+    svg_contents += draw_lines([
+        ([(head_width * (eyes_width * 0.5), head_height * (0.5 - eyes_height * 0.5)),
+          (head_width * (eyes_width * 0.5), head_height * (0.5 + eyes_height * 0.5))], True),
     ])
 
     # Body
@@ -108,14 +112,14 @@ def create_hbr_guide(body_ratios):
     y_feet     = (1 + neck_length_ratio + upper_body_length_ratio + lower_body_length_ratio + legs_length_ratio) * head_height
 
     svg_contents += draw_lines([
-        ([-x_shoulder, y_shoulder,  x_shoulder, y_shoulder], False),
-        ([-x_waist,    y_waist,     x_waist,    y_waist   ], False),
-        ([-x_hip,      y_hip,       x_hip,      y_hip     ], False),
-        ([ x_shoulder, y_shoulder,  x_waist,    y_waist   ], True ),
-        ([ x_waist,    y_waist,     x_hip,      y_hip     ], True ),
-        ([ x_groin,    y_hip,       x1_feet,    y_feet,   ], True ),
-        ([ x_hip,      y_hip,       x2_feet,    y_feet,   ], True ),
-        ([ x1_feet,    y_feet,      x2_feet,    y_feet    ], True ),
+        ([(-x_shoulder, y_shoulder), (x_shoulder, y_shoulder)], False),
+        ([(-x_waist,    y_waist   ), (x_waist,    y_waist   )], False),
+        ([(-x_hip,      y_hip     ), (x_hip,      y_hip     )], False),
+        ([( x_shoulder, y_shoulder), (x_waist,    y_waist   )], True ),
+        ([( x_waist,    y_waist   ), (x_hip,      y_hip     )], True ),
+        ([( x_groin,    y_hip     ), (x1_feet,    y_feet,   )], True ),
+        ([( x_hip,      y_hip     ), (x2_feet,    y_feet,   )], True ),
+        ([( x1_feet,    y_feet    ), (x2_feet,    y_feet    )], True ),
     ])
 
     return dedent("""\
