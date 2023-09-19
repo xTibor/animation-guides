@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+import argparse
 import os
 from textwrap import dedent
 
-from svg_utils import svg_style, svg_format_float
+from svg_utils import svg_style, svg_format_float, svg_to_clipboard
+
+################################################################################
+# Constants
 
 head_body_ratios = {
     #                    head_width_ratio
@@ -29,6 +33,9 @@ guide_styles = [
     "figure",
     "simple",
 ]
+
+################################################################################
+#  SVG document generator
 
 def draw_lines(lines):
     svg_data = ""
@@ -159,11 +166,36 @@ def create_hbr_guide(body_ratios, guide_style):
         svg_contents = svg_contents,
     )
 
-for guide_style in guide_styles:
-    for (hbr_name, body_ratios) in head_body_ratios.items():
-        svg_path = "character/hbr-{}/hbr-{}.svg".format(guide_style, hbr_name)
-        svg_document = create_hbr_guide(body_ratios, guide_style)
+################################################################################
+# Main
 
-        os.makedirs(os.path.dirname(svg_path), exist_ok = True)
-        with open(svg_path, "w") as svg_file:
-            svg_file.write(svg_document)
+parser = argparse.ArgumentParser()
+parser.add_argument("--command", type = str,                                                           )
+parser.add_argument("--target",  type = str,   default = "stdout"                                      )
+parser.add_argument("--style",   type = str,   default = "figure"                                      )
+parser.add_argument("--params",  type = float, default = list(head_body_ratios.values())[0], nargs = 10)
+
+args = parser.parse_args()
+
+match args.command:
+    case "create-svg":
+        svg_document = create_hbr_guide(args.params, args.style)
+        match args.target:
+            case "stdout":
+                print(svg_document)
+            case "clipboard":
+                svg_to_clipboard(svg_document)
+
+    case "query-guide-styles":
+        for guide_style in guide_styles:
+            print(guide_style)
+
+    case None:
+        for guide_style in guide_styles:
+            for (hbr_name, body_ratios) in head_body_ratios.items():
+                svg_path = "character/hbr-{}/hbr-{}.svg".format(guide_style, hbr_name)
+                svg_document = create_hbr_guide(body_ratios, guide_style)
+
+                os.makedirs(os.path.dirname(svg_path), exist_ok = True)
+                with open(svg_path, "w") as svg_file:
+                    svg_file.write(svg_document)
