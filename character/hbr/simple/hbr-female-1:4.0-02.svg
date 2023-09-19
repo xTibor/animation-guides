@@ -1,0 +1,22 @@
+<svg width="256" height="518.4" viewBox="-128 0 256 518.4" xmlns="http://www.w3.org/2000/svg">
+    
+    <style>
+    .primary {
+        fill: none;
+        stroke-width: 2px;
+        stroke: #000000;
+    }
+    .secondary {
+        fill: none;
+        stroke-width: 1px;
+        stroke: #000000;
+        stroke-miterlimit: 4;
+        stroke-dasharray: 1, 2;
+        stroke-dashoffset: 0;
+    }
+    </style>
+
+    <g id="hbr">
+        <circle class="secondary" cx="0" cy="64" r="64" /><line class="secondary" x1="-64" y1="134.4" x2="64" y2="134.4" /><line class="secondary" x1="-64" y1="241.067" x2="64" y2="241.067" /><line class="secondary" x1="-64" y1="305.067" x2="64" y2="305.067" /><line class="secondary" x1="-64" y1="518.4" x2="64" y2="518.4" />
+    </g>
+</svg>

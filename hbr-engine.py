@@ -10,23 +10,34 @@ from svg_utils import svg_style, svg_format_float, svg_to_clipboard
 # Constants
 
 head_body_ratios = {
-    #                    head_width_ratio
-    #                    |      shoulder_width_ratio
-    #                    |      |      waist_width_ratio
-    #                    |      |      |      hip_width_ratio
-    #                    |      |      |      |      feet_width_ratio
-    #                    |      |      |      |      |      feet_separation_ratio
-    #                    |      |      |      |      |      |      neck_length_ratio
-    #                    |      |      |      |      |      |      |      upper_body_length_ratio
-    #                    |      |      |      |      |      |      |      |      lower_body_length_ratio
-    #                    |      |      |      |      |      |      |      |      |      legs_length_ratio
-    #                    |      |      |      |      |      |      |      |      |      |
-    "1:2-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.025, 1 / 4, 1 / 4, 1 / 2],
-    "1:2-long-torso":   [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.025, 1 / 3, 1 / 3, 1 / 3],
-    "1:2-standard":     [1.000, 0.600, 0.530, 0.660, 0.333, 0.000, 0.025, 1 / 4, 1 / 4, 1 / 2],
-    "1:2.5-standard":   [1.000, 0.675, 0.600, 0.750, 0.375, 0.000, 0.050, 1 / 3, 1 / 3, 5 / 6],
-    "1:3-female":       [1.000, 0.450, 0.400, 0.500, 0.250, 0.000, 0.050, 1 / 2, 1 / 2,     1],
-    "1:6-standard":     [1.000, 0.900, 0.800, 1.000, 0.500, 0.000, 0.100,     1,     1,     3],
+    #                   head_width_ratio
+    #                   |      shoulder_width_ratio
+    #                   |      |      waist_width_ratio
+    #                   |      |      |      hip_width_ratio
+    #                   |      |      |      |      feet_width_ratio
+    #                   |      |      |      |      |      feet_separation_ratio
+    #                   |      |      |      |      |      |      neck_length_ratio
+    #                   |      |      |      |      |      |      |       upper_body_length_ratio
+    #                   |      |      |      |      |      |      |       |        lower_body_length_ratio
+    #                   |      |      |      |      |      |      |       |        |        legs_length_ratio
+    #                   |      |      |      |      |      |      |       |        |        |
+    "female-1:2.0-01": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  3,  1 /  3,  1 /  3],
+    "female-1:2.0-02": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  4,  1 /  4,  1 /  2],
+    "female-1:2.5-01": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  2,  1 /  3,  4 /  6],
+    "female-1:2.5-02": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  2,  1 /  2,  1 /  2],
+    "female-1:2.5-03": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  3,  1 /  3,  5 /  6],
+    "female-1:3.0-01": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  1 /  2,  1 /  2,  1 /  1],
+    "female-1:3.0-02": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  7 / 12,  7 / 12, 10 / 12],
+    "female-1:3.0-03": [1.000, 0.600, 0.500, 0.650, 0.400, 0.000, 0.050,  2 /  3,  1 /  3,  1 /  1],
+    "female-1:4.0-01": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.050,  2 /  3,  2 /  3,  5 /  3],
+    "female-1:4.0-02": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.050,  5 /  6,  3 /  6,  5 /  3],
+    "female-1:4.0-03": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.050,  1 /  1,  1 /  3,  5 /  3],
+    "female-1:4.0-04": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.050,  1 /  1,  1 /  1,  1 /  1],
+    "female-1:4.5-01": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.100,  3 /  4,  3 /  4,  2 /  1],
+    "female-1:4.5-02": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.100,  1 /  1,  1 /  2,  2 /  1],
+    "female-1:5.0-01": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.100,  1 /  1,  3 /  4,  9 /  4],
+    "female-1:6.0-01": [1.000, 0.900, 0.800, 1.000, 0.600, 0.000, 0.100,  1 /  1,  1 /  1,  3 /  1],
+    "female-1:7.0-01": [1.000, 1.000, 0.850, 1.100, 0.600, 0.000, 0.140,  4 /  3,  1 /  1, 11 /  3],
 }
 
 guide_styles = [
@@ -193,7 +204,7 @@ match args.command:
     case None:
         for guide_style in guide_styles:
             for (hbr_name, body_ratios) in head_body_ratios.items():
-                svg_path = "character/hbr-{}/hbr-{}.svg".format(guide_style, hbr_name)
+                svg_path = "character/hbr/{}/hbr-{}.svg".format(guide_style, hbr_name)
                 svg_document = create_hbr_guide(body_ratios, guide_style)
 
                 os.makedirs(os.path.dirname(svg_path), exist_ok = True)

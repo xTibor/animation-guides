@@ -1,0 +1,22 @@
+<svg width="256" height="518.4" viewBox="-128 0 256 518.4" xmlns="http://www.w3.org/2000/svg">
+    
+    <style>
+    .primary {
+        fill: none;
+        stroke-width: 2px;
+        stroke: #000000;
+    }
+    .secondary {
+        fill: none;
+        stroke-width: 1px;
+        stroke: #000000;
+        stroke-miterlimit: 4;
+        stroke-dasharray: 1, 2;
+        stroke-dashoffset: 0;
+    }
+    </style>
+
+    <g id="hbr">
+        <ellipse class="secondary" cx="0" cy="64" rx="64" ry="64" /><line class="secondary" x1="-64" y1="64" x2="64" y2="64" /><line class="secondary" x1="0" y1="0" x2="0" y2="128" /><line class="secondary" x1="32" y1="48" x2="32" y2="80" /><line class="secondary" x1="-32" y1="48" x2="-32" y2="80" /><line class="secondary" x1="-57.6" y1="134.4" x2="57.6" y2="134.4" /><line class="secondary" x1="-51.2" y1="219.733" x2="51.2" y2="219.733" /><line class="secondary" x1="-64" y1="305.067" x2="64" y2="305.067" /><line class="secondary" x1="57.6" y1="134.4" x2="51.2" y2="219.733" /><line class="secondary" x1="-57.6" y1="134.4" x2="-51.2" y2="219.733" /><line class="secondary" x1="51.2" y1="219.733" x2="64" y2="305.067" /><line class="secondary" x1="-51.2" y1="219.733" x2="-64" y2="305.067" /><line class="secondary" x1="0" y1="305.067" x2="0" y2="518.4" /><line class="secondary" x1="0" y1="305.067" x2="-0" y2="518.4" /><line class="secondary" x1="64" y1="305.067" x2="38.4" y2="518.4" /><line class="secondary" x1="-64" y1="305.067" x2="-38.4" y2="518.4" /><line class="secondary" x1="0" y1="518.4" x2="38.4" y2="518.4" /><line class="secondary" x1="-0" y1="518.4" x2="-38.4" y2="518.4" />
+    </g>
+</svg>
