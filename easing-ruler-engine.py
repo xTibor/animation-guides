@@ -2,11 +2,10 @@
 
 import argparse
 import os
-import subprocess
 from math import sin, cos, radians, pi, sqrt
 from textwrap import dedent
 
-from svg_utils import svg_style, svg_format_float
+from svg_utils import svg_style, svg_format_float, svg_to_clipboard
 
 ################################################################################
 # Easing functions
@@ -335,11 +334,7 @@ match args.command:
             case "stdout":
                 print(svg_document)
             case "clipboard":
-                subprocess.run(
-                    ["xclip", "-selection", "clipboard", "-t", "image/svg+xml"],
-                    encoding = "utf-8",
-                    input = svg_document,
-                )
+                svg_to_clipboard(svg_document)
 
     case "query-easing-function-names":
         for (easing_function_name, easing_function) in easing_functions.items():
