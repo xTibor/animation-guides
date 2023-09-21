@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="576"
+   height="576"
+   viewBox="0 0 152.4 152.4"
+   version="1.1"
+   id="svg826"
+   sodipodi:docname="icon-mask-male.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview828"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="0.62614861"
+     inkscape:cx="310.62913"
+     inkscape:cy="276.29224"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid887"
+       spacingx="9.525"
+       spacingy="9.525" />
+  </sodipodi:namedview>
+  <defs
+     id="defs823" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2191"
+       width="133.34999"
+       height="95.25"
+       x="9.5249996"
+       y="28.575001" />
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="path2709"
+       cx="76.199997"
+       cy="38.099998"
+       r="2.3812499" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect2946"
+       width="9.5249996"
+       height="2.3812499"
+       x="100.0125"
+       y="36.909374"
+       ry="0.5" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect2946-3"
+       width="9.5249996"
+       height="2.3812499"
+       x="42.862499"
+       y="36.909374"
+       ry="0.5" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:none;stroke-width:15.9987;paint-order:markers fill stroke"
+       id="path953"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="288"
+       sodipodi:cy="324"
+       sodipodi:r1="108"
+       sodipodi:r2="41.256001"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.9424778"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 288,216 24.24967,74.62319 78.46443,0.003 -63.47731,46.12264 24.24401,74.62503 L 288,365.256 l -63.48081,46.11783 24.24402,-74.62502 -63.47731,-46.12265 78.46443,-0.003 z"
+       transform="matrix(0.25556787,0.0684792,-0.0684792,0.25556787,24.783716,-18.834834)"
+       inkscape:transform-center-y="-0.4621377"
+       inkscape:transform-center-x="-2.2854148" />
+  </g>
+</svg>
