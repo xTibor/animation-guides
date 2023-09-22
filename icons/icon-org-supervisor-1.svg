@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="576"
+   height="576"
+   viewBox="0 0 152.4 152.4"
+   version="1.1"
+   id="svg826"
+   sodipodi:docname="icon-org-supervisor-1.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview828"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.31307431"
+     inkscape:cx="317.81592"
+     inkscape:cy="539.80794"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid887"
+       spacingx="4.7625"
+       spacingy="4.7625" />
+  </sodipodi:namedview>
+  <defs
+     id="defs823" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.05,147.6375 c 0,0 -2e-6,-66.675002 57.149999,-66.675001 C 133.35,80.9625 133.35,147.6375 133.35,147.6375 Z"
+       id="path877"
+       sodipodi:nodetypes="czcc" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="path901"
+       cx="76.199997"
+       cy="42.862499"
+       r="38.099998" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+       id="rect3803"
+       width="4.7625022"
+       height="19.049999"
+       x="59.53125"
+       y="33.337502"
+       ry="2.3812499" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+       id="rect3803-3"
+       width="4.7625022"
+       height="19.049999"
+       x="88.106247"
+       y="33.337502"
+       ry="2.3812499" />
+    <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 38.1,52.3875 c 0,0 10.753325,15.613405 19.05,19.05 5.866635,2.43004 12.7,0 19.05,0 6.35,0 13.183365,2.43004 19.05,0 8.29667,-3.436595 19.05,-19.05 19.05,-19.05 0,0 0,44.842649 -14.2875,44.842649 -6.54543,0 -4.762501,-14.11992 -4.762501,-14.11992 0,0 -2.425484,19.050001 -9.525,19.050001 -7.099516,0 -9.525,-19.050001 -9.525,-19.050001 0,0 -2.425484,19.050001 -9.525,19.050001 -7.099516,0 -9.525,-19.050001 -9.525,-19.050001 0,0 1.78293,14.11992 -4.7625,14.11992 C 38.1,97.230149 38.1,52.3875 38.1,52.3875"
+       id="path6804"
+       sodipodi:nodetypes="caaacscacacsc" />
+    <path
+       id="path6806"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:8.00001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180,234 c 0,0 48.15901,24.60357 72,18 16.35478,-4.53001 36,-36 36,-36 0,0 19.64522,31.46999 36,36 23.84099,6.60357 72,-18 72,-18 L 288,216 Z"
+       sodipodi:nodetypes="cacaccc"
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

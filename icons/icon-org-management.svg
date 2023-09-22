@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="576"
+   height="576"
+   viewBox="0 0 152.4 152.4"
+   version="1.1"
+   id="svg826"
+   sodipodi:docname="icon-org-management.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview828"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.44275394"
+     inkscape:cx="184.07515"
+     inkscape:cy="368.15031"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid887"
+       spacingx="4.7625"
+       spacingy="4.7625" />
+  </sodipodi:namedview>
+  <defs
+     id="defs823" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 19.05,147.6375 c 0,0 -2e-6,-66.675002 57.149999,-66.675001 C 133.35,80.9625 133.35,147.6375 133.35,147.6375 Z"
+       id="path877"
+       sodipodi:nodetypes="czcc" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="path901"
+       cx="76.199997"
+       cy="42.862499"
+       r="38.099998" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+       id="rect3803"
+       width="4.7625022"
+       height="19.049999"
+       x="59.53125"
+       y="33.337502"
+       ry="2.3812499" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+       id="rect3803-3"
+       width="4.7625022"
+       height="19.049999"
+       x="88.106247"
+       y="33.337502"
+       ry="2.3812499" />
+    <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.199999,80.962499 -9.524999,1e-6 9.525,9.525 9.525,-9.525 -9.525001,-1e-6"
+       id="path6454"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 76.2,90.4875 66.674999,123.825 76.2,133.35 85.724999,123.825 76.2,90.4875"
+       id="path6456"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57.15,85.725 c 4.7625,28.575 13.507407,43.68695 23.8125,61.9125 H 28.575"
+       id="path9442-7"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:4.23333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 95.25,85.725 C 90.4875,114.3 82.357184,129.21198 71.4375,147.6375 h 47.625"
+       id="path9442"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
