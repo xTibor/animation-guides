@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=576, initial-scale=1" />
+        <style>
+            html {
+                touch-action: manipulation;
+            }
+
+            body {
+                background: #FFFFFF;
+                overflow: hidden;
+            }
+
+            #stopwatch_container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                max-width: 576px;
+                max-height: 576px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #stopwatch_container img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                user-select: none;
+                pointer-events: none;
+                transition: inherit;
+            }
+        </style>
+        <script>
+            var stopwatch_start = null;
+            var stopwatch_state = 0;
+            var stopwatch_timer = null;
+
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            function set_elapsed_time(t) {
+                for ([id, cycle_length] of [["hand_outer", 6.0], ["hand_inner", 60.0]]) {
+                    $(id).style.transform = `rotate(${((t / 1000.0) / cycle_length * 360.0) % 360.0}deg)`;
+                }
+            }
+
+            function stopwatch_input() {
+                switch (stopwatch_state) {
+                    case 0:
+                        stopwatch_start = Date.now();
+                        stopwatch_timer = setInterval(() => {
+                            set_elapsed_time(Date.now() - stopwatch_start);
+                        }, 16);
+                        $("stopwatch_container").style.transition = "none";
+                        stopwatch_state = 1;
+                        break;
+                    case 1:
+                        clearInterval(stopwatch_timer);
+                        stopwatch_state = 2;
+                        break;
+                    case 2:
+                        set_elapsed_time(0.0);
+                        $("stopwatch_container").style.transition = "0.1s transform";
+                        stopwatch_state = 0;
+                        break;
+                }
+            }
+
+            window.addEventListener("load", (e) => {
+                set_elapsed_time(0.0);
+                document.addEventListener("keypress", stopwatch_input);
+                $("stopwatch_container").addEventListener("click", stopwatch_input);
+            });
+        </script>
+    </head>
+    <body>
+        <div id="stopwatch_container">
+            <img id="dial_outer" src="dial-outer/stopwatch-dial-outer-24fps-6s-1.svg#svgView(viewBox(-2,-2,156.4 156.4))" />
+            <img id="dial_inner" src="dial-inner/stopwatch-dial-inner-2.svg#svgView(viewBox(-2,-2,156.4 156.4))" />
+            <img id="hand_inner" src="hand-inner/stopwatch-hand-inner-black.svg#svgView(viewBox(-2,-2,156.4 156.4))" />
+            <img id="hand_outer" src="hand-outer/stopwatch-hand-outer-red.svg#svgView(viewBox(-2,-2,156.4 156.4))" />
+        </div>
+    </body>
+</html>
