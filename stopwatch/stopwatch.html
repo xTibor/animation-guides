@@ -142,6 +142,7 @@
                 for (const dial_url of stopwatch_styles[stopwatch_style]["dials"]) {
                     let dial_elem = document.createElement('img');
                     dial_elem.src = dial_url + viewbox_correction;
+                    dial_elem.draggable = false;
                     $("stopwatch_container").appendChild(dial_elem);
                 }
 
@@ -149,6 +150,7 @@
                     let hand_elem = document.createElement('img');
                     hand_elem.id = hand_id;
                     hand_elem.src = hand_url + viewbox_correction;
+                    hand_elem.draggable = false;
                     $("stopwatch_container").appendChild(hand_elem);
                 }
             }
