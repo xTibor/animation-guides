@@ -214,6 +214,7 @@ template_engine = {
             ("peg-top-and-bottom",      ["TOP&BOTTOM PEG",        "上下タップ"          ]),
             ("peg-top",                 ["TOP PEG",               "上タップ"            ]),
             ("pendant",                 ["PENDANT",               "ペンダント"          ]),
+            ("pixel-art",               ["PIXEL ART",             "ドット絵"            ]),
             ("preview",                 ["PREVIEW",               "プレビュー"          ]),
             ("pull",                    ["PULL",                  "引き"                ]),
             ("pupil",                   ["PUPIL",                 "瞳"                  ]),
