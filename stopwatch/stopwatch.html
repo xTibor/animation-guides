@@ -194,15 +194,15 @@
                 },
             };
 
-            let stopwatch_state, stopwatch_style, stopwatch_start, stopwatch_timer;
+            let stopwatch_state, stopwatch_style, stopwatch_start, stopwatch_request;
 
             function stopwatch_initialize() {
-                clearInterval(stopwatch_timer);
+                cancelAnimationFrame(stopwatch_request);
 
                 stopwatch_state = 0;
                 stopwatch_style = null;
                 stopwatch_start = null;
-                stopwatch_timer = null;
+                stopwatch_request = null;
 
                 stopwatch_reload_style();
                 stopwatch_set_elapsed_time(0.0);
@@ -218,18 +218,21 @@
                 }
             }
 
+            function stopwatch_tick() {
+                stopwatch_request = requestAnimationFrame(stopwatch_tick);
+                stopwatch_set_elapsed_time(performance.now() - stopwatch_start);
+            }
+
             function stopwatch_input() {
                 switch (stopwatch_state) {
                     case 0:
-                        stopwatch_start = Date.now();
-                        stopwatch_timer = setInterval(() => {
-                            stopwatch_set_elapsed_time(Date.now() - stopwatch_start);
-                        }, 16);
+                        stopwatch_start = performance.now();
+                        stopwatch_request = requestAnimationFrame(stopwatch_tick);
                         $("stopwatch_container").style.transition = "none";
                         stopwatch_state = 1;
                         break;
                     case 1:
-                        clearInterval(stopwatch_timer);
+                        cancelAnimationFrame(stopwatch_request);
                         stopwatch_state = 2;
                         break;
                     case 2:
