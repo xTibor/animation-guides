@@ -180,18 +180,27 @@
                 },
             };
 
-            let stopwatch_state = 0;
-            let stopwatch_style = null;
-            let stopwatch_start = null;
-            let stopwatch_timer = null;
+            let stopwatch_state, stopwatch_style, stopwatch_start, stopwatch_timer;
+
+            function stopwatch_initialize() {
+                clearInterval(stopwatch_timer);
+
+                stopwatch_state = 0;
+                stopwatch_style = null;
+                stopwatch_start = null;
+                stopwatch_timer = null;
+
+                stopwatch_reload_style();
+                stopwatch_set_elapsed_time(0.0);
+            }
 
             function $(id) {
                 return document.getElementById(id);
             }
 
             function stopwatch_set_elapsed_time(t) {
-                for (const [hand_id, hand_cycle, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
-                    $(hand_id).style.transform = `rotate(${((t / 1000.0) / hand_cycle * 360.0) % 360.0}deg)`;
+                for (const [hand_id, hand_sweep, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
+                    $(hand_id).style.transform = `rotate(${((t / 1000.0) / hand_sweep * 360.0) % 360.0}deg)`;
                 }
             }
 
@@ -237,7 +246,7 @@
                     $("stopwatch_container").appendChild(dial_elem);
                 }
 
-                for (const [hand_id, hand_cycle, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
+                for (const [hand_id, hand_sweep, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
                     let hand_elem = document.createElement('img');
                     hand_elem.id = hand_id;
                     hand_elem.src = hand_url + viewbox_correction;
@@ -247,10 +256,9 @@
             }
 
             window.addEventListener("load", (e) => {
-                stopwatch_reload_style();
-                stopwatch_set_elapsed_time(0.0);
+                stopwatch_initialize();
 
-                window.addEventListener("hashchange", stopwatch_reload_style);
+                window.addEventListener("hashchange", stopwatch_initialize);
                 document.addEventListener("keypress", stopwatch_input);
                 $("stopwatch_container").addEventListener("click", stopwatch_input);
             });
