@@ -14,14 +14,16 @@
 
             #stopwatch_container {
                 position: absolute;
-                width: 100%;
-                height: 100%;
-                max-width: 576px;
-                max-height: 576px;
                 top: 50%;
                 left: 50%;
+                max-width: 576px;
+                max-height: 576px;
+                aspect-ratio: 1 / 1;
                 transform: translate(-50%, -50%);
             }
+
+            @media (min-aspect-ratio: 1 / 1) { #stopwatch_container { height: 100%; } }
+            @media (max-aspect-ratio: 1 / 1) { #stopwatch_container { width:  100%; } }
 
             #stopwatch_container img {
                 position: absolute;
