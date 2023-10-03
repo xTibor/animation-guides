@@ -214,7 +214,8 @@
 
             function stopwatch_set_elapsed_time(t) {
                 for (const [hand_id, hand_sweep, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
-                    $(hand_id).style.transform = `rotate(${((t / 1000.0) / hand_sweep * 360.0) % 360.0}deg)`;
+                    let angle = ((t / 1000.0) / hand_sweep * 360.0) % 360.0;
+                    $(hand_id).style.transform = `rotate(${angle}deg)`;
                 }
             }
 
