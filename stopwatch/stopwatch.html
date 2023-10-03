@@ -196,6 +196,9 @@
                 },
             };
 
+            const viewbox_correction_param = "#svgView(viewBox(-2,-2,156.4 156.4))";
+            const viewbox_correction_scale = 152.4 / 156.4;
+
             let stopwatch_state, stopwatch_style, stopwatch_start, stopwatch_request;
 
             function stopwatch_initialize() {
@@ -256,12 +259,11 @@
                     stopwatch_style = stopwatch_default_style;
                 }
 
-                const viewbox_correction = "#svgView(viewBox(-2,-2,156.4 156.4))";
                 $("stopwatch_container").replaceChildren();
 
                 for (const dial_url of stopwatch_styles[stopwatch_style]["dials"]) {
                     let dial_elem = document.createElement('img');
-                    dial_elem.src = dial_url + viewbox_correction;
+                    dial_elem.src = dial_url + viewbox_correction_param;
                     dial_elem.draggable = false;
                     $("stopwatch_container").appendChild(dial_elem);
                 }
@@ -269,7 +271,7 @@
                 for (const [hand_id, hand_sweep, hand_url] of stopwatch_styles[stopwatch_style]["hands"]) {
                     let hand_elem = document.createElement('img');
                     hand_elem.id = hand_id;
-                    hand_elem.src = hand_url + viewbox_correction;
+                    hand_elem.src = hand_url + viewbox_correction_param;
                     hand_elem.draggable = false;
                     $("stopwatch_container").appendChild(hand_elem);
                 }
