@@ -34,164 +34,51 @@
             }
         </style>
         <script>
-            const stopwatch_default_style = "janica";
+            const stopwatch_default_style = "xt24";
 
             const stopwatch_styles = {
-                "janica": {
+                "ghibli": {
                     "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-5.svg"         ],
+                        [[0.0,   0.0], "dial-large/dial-bg-01.svg"],
+                        [[0.0, -38.0], "dial-small-01/dial-01.svg"],
+                        [[0.0,   0.0], "dial-large/dial-09.svg"   ],
                     ],
                     "hands": [
-                        [30.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
+                        [30.0, 0.0, [0.0, -38.0], "dial-small-01/hand-maroon.svg"],
+                        [ 6.0, 0.0, [0.0,   0.0], "dial-large/hand-red.svg"      ],
                     ],
                 },
-                "alt-01": {
+                "ghibli-alt-01": {
                     "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-7.svg"         ],
+                        [[0.0,   0.0], "dial-large/dial-bg-01.svg"],
+                        [[0.0, -38.0], "dial-small-01/dial-01.svg"],
+                        [[0.0,   0.0], "dial-large/dial-09.svg"   ],
                     ],
                     "hands": [
-                        [60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
+                        [180.0, 0.0, [0.0, -38.0], "dial-small-01/hand-black.svg" ],
+                        [ 30.0, 0.0, [0.0, -38.0], "dial-small-01/hand-maroon.svg"],
+                        [  6.0, 0.0, [0.0,   0.0], "dial-large/hand-red.svg"      ],
                     ],
                 },
-                "alt-02": {
+                "ghibli-alt-02": {
                     "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-1.svg"         ],
+                        [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
+                        [[0.0, 0.0], "dial-large/dial-01.svg"   ],
+                        [[0.0, 0.0], "dial-small-02/dial-05.svg"],
                     ],
                     "hands": [
-                        [180.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-black.svg" ],
-                        [ 30.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [  6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
+                        [30.0, 0.0, [0.0, 0.0], "dial-small-02/hand-maroon.svg"],
+                        [ 6.0, 0.0, [0.0, 0.0], "dial-large/hand-red.svg"      ],
                     ],
                 },
-                "alt-03": {
+                "xt24": {
                     "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-4.svg"         ],
+                        [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
+                        [[0.0, 0.0], "dial-large/dial-07.svg"   ],
                     ],
                     "hands": [
-                        [360.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-black.svg" ],
-                        [ 60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [  6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-04": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-6.svg"         ],
-                    ],
-                    "hands": [
-                        [360.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-black.svg" ],
-                        [ 60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [  6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-05": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"         ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-60s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-3.svg"          ],
-                    ],
-                    "hands": [
-                        [ 1.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [60.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ]
-                },
-                "alt-06": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"         ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-10s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-7.svg"          ],
-                    ],
-                    "hands": [
-                        [60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [10.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ]
-                },
-                "alt-07": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"         ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-10s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-2.svg"          ],
-                    ],
-                    "hands": [
-                        [360.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-black.svg" ],
-                        [ 60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 10.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ]
-                },
-                "alt-08": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-8.svg"         ],
-                    ],
-                    "hands": [
-                        [30.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-09": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-9.svg"         ],
-                    ],
-                    "hands": [
-                        [60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-10": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-10.svg"        ],
-                    ],
-                    "hands": [
-                        [60.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-11": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"        ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-6s-1.svg"],
-                        [[0.0, 0.0], "dial-inner/stopwatch-dial-inner-3.svg"         ],
-                    ],
-                    "hands": [
-                        [24.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-black.svg" ],
-                        [ 1.0, 0.0, [0.0, 0.0], "hand-inner/stopwatch-hand-inner-maroon.svg"],
-                        [ 6.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-12": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"         ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-24s-1.svg"],
-                    ],
-                    "hands": [
-                        [24.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-maroon.svg"],
-                        [ 1.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
-                    ],
-                },
-                "alt-13": {
-                    "dials": [
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-bg.svg"         ],
-                        [[0.0, 0.0], "dial-outer/stopwatch-dial-outer-24fps-24s-2.svg"],
-                    ],
-                    "hands": [
-                        [24.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-maroon.svg"],
-                        [ 1.0, 0.0, [0.0, 0.0], "hand-outer/stopwatch-hand-outer-red.svg"   ],
+                        [24.0, 0.0, [0.0, 0.0], "dial-large/hand-maroon.svg"],
+                        [ 1.0, 0.0, [0.0, 0.0], "dial-large/hand-red.svg"   ],
                     ],
                 },
             };
