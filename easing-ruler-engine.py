@@ -83,6 +83,34 @@ easing_functions = {
 }
 
 ################################################################################
+# SVG circle arc helpers
+
+def svg_circle_arc_point(arc_degrees, arc_radius):
+    return (
+        288 + cos(radians(arc_degrees)) * arc_radius,
+        288 - sin(radians(arc_degrees)) * arc_radius,
+    )
+
+def svg_circle_arc(style_class, arc_degrees, arc_radius):
+    arc_resolution = 9
+
+    x, y = svg_circle_arc_point(0, arc_radius)
+    arc_path_data = "M{x} {y}".format(
+        x = svg_format_float(x),
+        y = svg_format_float(y),
+    )
+
+    for l in range(0, arc_resolution):
+        x, y = svg_circle_arc_point(l / (arc_resolution - 1) * arc_degrees, arc_radius)
+        arc_path_data += " A {arc_radius} {arc_radius} 0 0 0 {x} {y}".format(
+            arc_radius = svg_format_float(arc_radius),
+            x = svg_format_float(x),
+            y = svg_format_float(y),
+        )
+
+    return '<path class="{}" d="{}" />'.format(style_class, arc_path_data)
+
+################################################################################
 # SVG document generators
 
 def create_svg_ruler_straight(easing_function, **kwargs):
@@ -146,48 +174,20 @@ def create_svg_ruler_radial(easing_function, **kwargs):
 
     svg_contents = ""
 
-    def circle_arc_point(arc_degrees, arc_radius):
-        return (
-            288 + cos(radians(arc_degrees)) * arc_radius,
-            288 - sin(radians(arc_degrees)) * arc_radius,
-        )
+    svg_contents += svg_circle_arc("primary", ruler_degrees, ruler_outer_radius)
+    for l in range(1, 6):
+        svg_contents += svg_circle_arc("secondary", ruler_degrees, (l / 6) * ruler_outer_radius)
 
-    def draw_circle_arc(style_class, arc_radius):
-        arc_resolution = 9
-
-        x, y = circle_arc_point(0, arc_radius)
-        arc_path_data = "M{x} {y}".format(
-            x = svg_format_float(x),
-            y = svg_format_float(y),
-        )
-
-        for l in range(0, arc_resolution):
-            x, y = circle_arc_point(l / (arc_resolution - 1) * ruler_degrees, arc_radius)
-            arc_path_data += " A {arc_radius} {arc_radius} 0 0 0 {x} {y}".format(
-                arc_radius = svg_format_float(arc_radius),
-                x = svg_format_float(x),
-                y = svg_format_float(y),
-            )
-
-        return '<path class="{}" d="{}" />'.format(style_class, arc_path_data)
-
-    def draw_radius(style_class, arc_degrees):
-        x1, y1 = circle_arc_point(arc_degrees, ruler_inner_radius)
-        x2, y2 = circle_arc_point(arc_degrees, ruler_outer_radius)
-        return '<line class="{}" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-            style_class,
+    for l in range(0, ruler_frames):
+        arc_degrees = easing_function(l / (ruler_frames - 1)) * ruler_degrees
+        x1, y1 = svg_circle_arc_point(arc_degrees, ruler_inner_radius)
+        x2, y2 = svg_circle_arc_point(arc_degrees, ruler_outer_radius)
+        svg_contents += '<line class="primary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
             x1 = svg_format_float(x1),
             y1 = svg_format_float(y1),
             x2 = svg_format_float(x2),
             y2 = svg_format_float(y2),
         )
-
-    svg_contents += draw_circle_arc("primary", ruler_outer_radius)
-    for l in range(1, 6):
-        svg_contents += draw_circle_arc("secondary", (l / 6) * ruler_outer_radius)
-
-    for l in range(0, ruler_frames):
-        svg_contents += draw_radius("primary", easing_function(l / (ruler_frames - 1)) * ruler_degrees)
 
     return dedent("""\
         <svg width="576" height="576" viewBox="0 0 576 576" xmlns="http://www.w3.org/2000/svg">
