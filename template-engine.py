@@ -349,6 +349,7 @@ template_engine = {
             ("revision",                          ["修正",         "110"]),
             ("scan-required",                     ["要SCAN",       "190"]),
             ("submitted",                         ["原図出済",     "210"]),
+            ("urgent",                            ["至急",         "110"]),
         ],
     }
 }
