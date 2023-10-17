@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="marker-20.svg"
+   sodipodi:docname="marker-11.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,22 +26,20 @@
      units="px"
      width="576px"
      showguides="false"
-     inkscape:zoom="0.87303592"
-     inkscape:cx="269.74835"
-     inkscape:cy="280.05721"
+     inkscape:zoom="0.43651796"
+     inkscape:cx="578.44126"
+     inkscape:cy="386.00932"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-grids="true">
+     inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
        id="grid824"
-       spacingx="9.525"
-       spacingy="9.525" />
+       spacingx="19.05"
+       spacingy="19.05" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -50,38 +48,11 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;stroke:none;stroke-width:8.46667"
-       id="rect929"
-       width="19.050005"
-       height="57.150002"
-       x="66.674995"
-       y="0" />
-    <rect
-       style="fill:#000000;stroke:none;stroke-width:8.46667"
-       id="rect1273"
-       width="57.150002"
-       height="19.050005"
+       style="fill:#000000;stroke:none;stroke-width:4.23333;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1294"
+       width="152.39999"
+       height="152.39999"
        x="0"
-       y="66.674995" />
-    <rect
-       style="fill:#000000;stroke:none;stroke-width:8.46667"
-       id="rect1275"
-       width="57.149994"
-       height="19.049992"
-       x="95.25"
-       y="66.675003" />
-    <rect
-       style="fill:#000000;stroke:none;stroke-width:8.46667"
-       id="rect1277"
-       width="19.049992"
-       height="57.149994"
-       x="66.675003"
-       y="95.25" />
-    <circle
-       style="fill:#000000;stroke:none;stroke-width:8.46667"
-       id="path1461"
-       cx="76.199997"
-       cy="76.199997"
-       r="9.5249996" />
+       y="0" />
   </g>
 </svg>

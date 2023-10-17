@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="marker-16.svg"
+   sodipodi:docname="marker-04.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,9 +26,9 @@
      units="px"
      width="576px"
      showguides="false"
-     inkscape:zoom="0.30866481"
-     inkscape:cx="257.56094"
-     inkscape:cy="630.13338"
+     inkscape:zoom="0.43651796"
+     inkscape:cx="92.779688"
+     inkscape:cy="241.68536"
      inkscape:window-width="1366"
      inkscape:window-height="707"
      inkscape:window-x="1680"
@@ -47,23 +47,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="fill:#ffffff;stroke:#000000;stroke-width:8.46666667;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path985"
-       cx="76.199997"
-       cy="76.199997"
-       r="76.199997" />
     <path
        id="path848"
-       style="fill:#ffffff;stroke:#000000;stroke-width:8.46668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 133.35,76.2 A 57.150002,57.150002 0 0 1 76.2,133.35 57.150002,57.150002 0 0 1 19.049998,76.2 57.150002,57.150002 0 0 1 76.2,19.049998 57.150002,57.150002 0 0 1 133.35,76.2 Z" />
+       style="fill:#ffffff;stroke:#000000;stroke-width:8.46666667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 152.39999,76.199997 A 76.199997,76.199997 0 0 1 76.199997,152.39999 76.199997,76.199997 0 0 1 0,76.199997 76.199997,76.199997 0 0 1 76.199997,0 76.199997,76.199997 0 0 1 152.39999,76.199997 Z" />
     <path
        id="path952"
        style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
-       d="M 133.35,76.2 A 57.150002,57.150002 0 0 1 76.2,133.35 V 76.2 Z" />
+       d="M 152.39999,76.199997 A 76.199997,76.199997 0 0 1 76.199997,152.39999 V 76.199997 Z" />
     <path
        id="path952-3"
        style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
-       d="M 19.049998,76.2 A 57.150002,57.150002 0 0 1 76.2,19.049998 V 76.2 Z" />
+       d="M 0,76.199997 A 76.199997,76.199997 0 0 1 76.199997,0 v 76.199997 z" />
   </g>
 </svg>
