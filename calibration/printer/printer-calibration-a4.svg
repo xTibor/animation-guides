@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.3.1 (91b66b0, 2023-11-16)"
    sodipodi:docname="printer-calibration-a4.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,16 +24,17 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="11.313708"
-     inkscape:cx="803.49428"
-     inkscape:cy="10.032077"
-     inkscape:window-width="1366"
-     inkscape:window-height="707"
-     inkscape:window-x="1680"
-     inkscape:window-y="282"
+     inkscape:zoom="0.5"
+     inkscape:cx="209"
+     inkscape:cy="657"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:pageshadow="2">
+     inkscape:pageshadow="2"
+     showguides="true">
     <inkscape:grid
        id="grid8"
        units="cm"
@@ -55,14 +56,14 @@
      id="defs1">
     <inkscape:path-effect
        effect="tiling"
-       id="path-effect25"
+       id="path-effect3"
        is_visible="true"
        lpeversion="1"
        unit="cm"
        seed="1;1"
        lpesatellites=""
        num_rows="1"
-       num_cols="22"
+       num_cols="20"
        gapx="1"
        gapy="0"
        offset="0"
@@ -88,13 +89,13 @@
        transformorigin="" />
     <inkscape:path-effect
        effect="tiling"
-       id="path-effect24"
+       id="path-effect2"
        is_visible="true"
        lpeversion="1"
        unit="cm"
        seed="1;1"
        lpesatellites=""
-       num_rows="30"
+       num_rows="29"
        num_cols="1"
        gapx="0"
        gapy="1"
@@ -125,26 +126,35 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;stroke-miterlimit:4"
-       d="M 0,0 H 210 M 0,10 H 210 M 0,20 H 210 M 0,30 H 210 M 0,40 H 210 M 0,50 H 210 M 0,60 H 210 M 0,70 H 210 M 0,80 H 210 M 0,90 H 210 M 0,100 H 210 M 0,110 H 210 M 0,120 H 210 M 0,130 H 210 M 0,140 H 210 M 0,150 H 210 M 0,160 H 210 M 0,170 H 210 M 0,180 H 210 M 0,190 H 210 M 0,200 H 210 M 0,210 H 210 M 0,220 H 210 M 0,230 H 210 M 0,240 H 210 M 0,250 H 210 M 0,260 H 210 M 0,270 H 210 M 0,280 H 210 M 0,290 h 210"
-       id="path23"
-       inkscape:original-d="M 0,0 H 210" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;stroke-miterlimit:4"
-       d="M 0,297 V 0 M 10,297 V 0 M 20,297 V 0 M 30,297 V 0 M 40,297 V 0 M 50,297 V 0 M 60,297 V 0 M 70,297 V 0 M 80,297 V 0 M 90,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0 m 10,297 V 0"
-       id="path24"
-       inkscape:original-d="M 0,297 V 0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;stroke-miterlimit:4"
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0,0 210,297"
-       id="path25" />
+       id="path25"
+       sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;stroke-miterlimit:4"
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0,297 210,0"
-       id="path26" />
+       id="path26"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect1"
+       width="210"
+       height="297"
+       x="0"
+       y="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;stroke-miterlimit:4"
-       d="M 0,297 H 210"
-       id="path27" />
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0,10 210,-3e-7 M 0,20 210,20 M 0,30.000001 210,30 M 0,40.000001 l 210,0 m -210,10 210,0 m -210,10 210,0 M 0,70.000002 l 210,-10e-7 M 0,80.000002 l 210,0 m -210,10 210,0 M 0,100 210,100 M 0,110 210,110 M 0,120 210,120 M 0,130 210,130 M 0,140 210,140 M 0,150 210,150 M 0,160 210,160 M 0,170 210,170 M 0,180.00001 210,180 m -210,10.00001 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0 m -210,10 210,0"
+       id="path1"
+       inkscape:path-effect="#path-effect2"
+       inkscape:original-d="m 0,10 210,-3e-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.9999995,0 10,297 M 20,0 20,297 M 30,0 l 1e-6,297 m 10,-297 1e-6,297 m 10,-297 0,297 m 10,-297 0,297 M 70.000003,0 l 0,297 m 10,-297 10e-7,297 m 10,-297 0,297 M 100,0 l 0,297 m 10,-297 1e-5,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297 m 10,-297 0,297"
+       id="path2"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="M 9.9999995,0 10,297"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
