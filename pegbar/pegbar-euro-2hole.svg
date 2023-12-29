@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    sodipodi:docname="pegbar-euro-2hole.svg"
-   inkscape:version="1.3.1 (91b66b0, 2023-11-16)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@
      showgrid="true"
      inkscape:snap-grids="false"
      inkscape:snap-object-midpoints="true"
-     inkscape:zoom="1.7638889"
-     inkscape:cx="155.62205"
-     inkscape:cy="101.76378"
+     inkscape:zoom="0.88194445"
+     inkscape:cx="341.85827"
+     inkscape:cy="8.5039369"
      inkscape:window-width="1680"
      inkscape:window-height="1021"
      inkscape:window-x="0"
@@ -62,16 +62,32 @@
        x="0"
        y="0" />
     <circle
-       style="fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1336"
        cx="100"
        cy="9"
        r="3" />
     <circle
-       style="fill:#000000;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1336-7"
        cx="20"
        cy="9"
        r="3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 20,5.9999998 V 12"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23,8.9999999 H 17"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 100,5.9999998 V 12"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 96.999998,8.9999999 H 103"
+       id="path4" />
   </g>
 </svg>

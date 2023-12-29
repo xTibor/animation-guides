@@ -7,7 +7,7 @@
    viewBox="0 0 457.20002 19.050001"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    sodipodi:docname="pegbar-acme-5hole-1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -28,18 +28,20 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:zoom="2.4945156"
-     inkscape:cx="77.971051"
-     inkscape:cy="105.83217"
-     inkscape:window-width="1366"
-     inkscape:window-height="707"
-     inkscape:window-x="1680"
-     inkscape:window-y="282"
+     inkscape:zoom="0.31181445"
+     inkscape:cx="803.36238"
+     inkscape:cy="-27.259801"
+     inkscape:window-width="1680"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-page="true"
      inkscape:snap-grids="true"
-     inkscape:bbox-nodes="true">
+     inkscape:bbox-nodes="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid824"
@@ -48,7 +50,8 @@
        spacingx="101.6"
        originx="127"
        originy="9.5250005"
-       empspacing="0" />
+       empspacing="0"
+       visible="true" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -57,13 +60,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#000000;stroke-width:0.529167;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:none;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke:#000000;stroke-dasharray:none"
        id="path848"
        cx="127"
        cy="9.5250006"
        r="3.175" />
     <rect
-       style="fill:#000000;stroke-width:0.579673;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:none;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke:#000000;stroke-dasharray:none"
        id="rect1059"
        width="15.24"
        height="3.175"
@@ -71,13 +74,13 @@
        y="7.9375005"
        ry="1.5875" />
     <circle
-       style="fill:#000000;stroke-width:0.529167;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:none;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke:#000000;stroke-dasharray:none"
        id="path848-6"
        cx="330.20001"
        cy="9.5250006"
        r="3.175" />
     <rect
-       style="fill:#000000;stroke-width:0.579673;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:none;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke:#000000;stroke-dasharray:none"
        id="rect1059-7"
        width="15.24"
        height="3.175"
@@ -85,7 +88,7 @@
        y="7.9375005"
        ry="1.5875" />
     <rect
-       style="fill:#000000;stroke-width:0.579673;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:none;stroke-width:0.26458333;stroke-linecap:round;paint-order:stroke fill markers;stroke:#000000;stroke-dasharray:none"
        id="rect1059-3"
        width="15.24"
        height="3.175"
@@ -99,5 +102,45 @@
        height="19.049999"
        x="0"
        y="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 25.399997,7.9375004 V 11.1125"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 17.779998,9.5250001 H 33.019997"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 127,6.3500004 V 12.7"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 123.825,9.5250004 h 6.35"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 228.59999,7.9375004 V 11.1125"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 220.97999,9.5250001 15.24,3e-7"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 330.2,6.3500004 V 12.7"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 327.025,9.5250004 h 6.35"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 431.79999,7.9375004 V 11.1125"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 424.17999,9.5250001 h 15.23998"
+       id="path10" />
   </g>
 </svg>
