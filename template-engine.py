@@ -357,6 +357,7 @@ template_engine = {
             ("layout-1",                          ["レイアウト",       "250"]),
             ("layout-2",                          ["原図",             "110"]),
             ("page-x",                            ["PAGE　　",         "200"]),
+            ("pending-approval",                  ["監修中",           "160"]),
             ("prohibited-reproduction",           ["無断転載禁止",     "310"]),
             ("reference",                         ["参考",             "110"]),
             ("revision-animation-director",       ["作監修正",         "210"]),
