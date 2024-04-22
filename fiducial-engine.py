@@ -34,32 +34,32 @@ svg_style = """
 ################################################################################
 #  Fiducial - xt16bfm
 
-def xt16bfm_rotate(value):
-    result = 0
-    for [index_a, index_b] in enumerate([6, 7, 0, 1, 2, 3, 4, 5]):
-        tmp = (value >> (index_b * 2)) & 0b11
-        tmp = (tmp + 1) & 0b11
-        result |= (tmp << (index_a * 2))
-    return result
-
-def xt16bfm_mirror(value):
-    result = 0
-    for [index_a, index_b] in enumerate([2, 1, 0, 7, 6, 5, 4, 3]):
-        tmp = (value >> (index_b * 2)) & 0b11
-        tmp = tmp ^ 0b01
-        result |= (tmp << (index_a * 2))
-    return result
-
 def xt16bfm_canonicalize(value):
+    def rotate(value):
+        result = 0
+        for [index_a, index_b] in enumerate([6, 7, 0, 1, 2, 3, 4, 5]):
+            tmp = (value >> (index_b * 2)) & 0b11
+            tmp = (tmp + 1) & 0b11
+            result |= (tmp << (index_a * 2))
+        return result
+
+    def mirror(value):
+        result = 0
+        for [index_a, index_b] in enumerate([2, 1, 0, 7, 6, 5, 4, 3]):
+            tmp = (value >> (index_b * 2)) & 0b11
+            tmp = tmp ^ 0b01
+            result |= (tmp << (index_a * 2))
+        return result
+
     return min([
         value,
-        xt16bfm_rotate(value),
-        xt16bfm_rotate(xt16bfm_rotate(value)),
-        xt16bfm_rotate(xt16bfm_rotate(xt16bfm_rotate(value))),
-        xt16bfm_mirror(value),
-        xt16bfm_rotate(xt16bfm_mirror(value)),
-        xt16bfm_rotate(xt16bfm_rotate(xt16bfm_mirror(value))),
-        xt16bfm_rotate(xt16bfm_rotate(xt16bfm_rotate(xt16bfm_mirror(value)))),
+        rotate(value),
+        rotate(rotate(value)),
+        rotate(rotate(rotate(value))),
+        mirror(value),
+        rotate(mirror(value)),
+        rotate(rotate(mirror(value))),
+        rotate(rotate(rotate(mirror(value)))),
     ])
 
 ################################################################################
