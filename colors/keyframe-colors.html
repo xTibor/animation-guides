@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #palette_container {
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <script>
+        const palette_columns = [
+              0, // Red
+             30, // Orange
+             60, // Yellow
+            120, // Green
+            180, // Cyan
+            240, // Blue
+            300, // Purple
+        ];
+
+        const palette_rows = [
+          //[  Lightness, Saturation,  Hue shift]
+            [         90,         55,        -5 ], // Paper
+            [         75,         70,        -10], // Paint
+            [         40,         80,        -15], // Trace
+        ];
+
+        window.addEventListener("DOMContentLoaded", () => {
+            const palette_container = document.getElementById("palette_container");
+            palette_container.style.gridTemplateColumns = `repeat(${palette_columns.length}, 1fr)`;
+            palette_container.style.gridTemplateRows = `repeat(${palette_rows.length}, 1fr)`;
+
+            for (const [lightness, saturation, hue_shift] of palette_rows) {
+                for (const hue of palette_columns) {
+                    const color = `hsl(${hue + hue_shift}deg ${saturation}% ${lightness}%)`;
+
+                    let color_swatch = document.createElement("div");
+                    color_swatch.style.backgroundColor = color;
+
+                    palette_container.appendChild(color_swatch);
+                }
+            }
+        })
+    </script>
+</head>
+<body>
+    <div id="palette_container"></div>
+</body>
+</html>

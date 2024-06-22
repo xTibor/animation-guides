@@ -1,0 +1,28 @@
+GIMP Palette
+Name: Keyframe Colors
+Columns: 8
+
+255 255 255  Paper - White
+244 215 218  Paper - Red
+244 227 215  Paper - Orange
+244 241 215  Paper - Yellow
+218 244 215  Paper - Green
+215 244 241  Paper - Cyan
+215 218 244  Paper - Blue
+241 215 244  Paper - Purple
+200 200 200  Paint - Gray
+236 147 162  Paint - Red
+236 176 147  Paint - Orange
+236 221 147  Paint - Yellow
+162 236 147  Paint - Green
+147 236 221  Paint - Cyan
+147 162 236  Paint - Blue
+221 147 236  Paint - Purple
+  0   0   0  Trace - Black
+184  20  61  Trace - Red
+184  61  20  Trace - Orange
+184 143  20  Trace - Yellow
+ 61 184  20  Trace - Green
+ 20 184 143  Trace - Cyan
+ 20  61 184  Trace - Blue
+143  20 184  Trace - Purple
