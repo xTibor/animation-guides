@@ -1,0 +1,40 @@
+GIMP Palette
+Name: Keyframe Colors (OKLCH)
+Columns: 8
+
+244 215 215  Paper - Red
+240 219 203  Paper - Orange
+228 224 200  Paper - Yellow
+213 229 209  Paper - Green
+200 230 230  Paper - Cyan
+213 224 245  Paper - Blue
+236 216 234  Paper - Purple
+224 224 224  Paper - Gray
+
+237 148 152  Paint - Red
+229 159 106  Paint - Orange
+196 177  92  Paint - Yellow
+144 193 124  Paint - Green
+ 75 198 194  Paint - Cyan
+139 177 245  Paint - Blue
+213 152 212  Paint - Purple
+175 175 175  Paint - Gray
+
+184  20  66  Trace - Red
+177  51   0  Trace - Orange
+137  92   0  Trace - Yellow
+ 44 121   0  Trace - Green
+  0 130 123  Trace - Cyan
+  5  92 207  Trace - Blue
+150  46 160  Trace - Purple
+ 74  74  74  Trace - Gray
+
+255   0   0  RGB - Red
+255 255 255  RGB - White
+255 255   0  RGB - Yellow
+  0 255   0  RGB - Green
+  0 255 255  RGB - Cyan
+  0   0 255  RGB - Blue
+255   0 255  RGB - Magenta
+  0   0   0  RGB - Black
+

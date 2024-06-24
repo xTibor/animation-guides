@@ -1,8 +1,7 @@
 GIMP Palette
-Name: Keyframe Colors
+Name: Keyframe Colors (HSL)
 Columns: 8
 
-255 255 255  Paper - White
 244 215 218  Paper - Red
 244 227 215  Paper - Orange
 244 241 215  Paper - Yellow
@@ -10,7 +9,8 @@ Columns: 8
 215 244 241  Paper - Cyan
 215 218 244  Paper - Blue
 241 215 244  Paper - Purple
-200 200 200  Paint - Gray
+224 224 224  Paper - Gray
+
 236 147 162  Paint - Red
 236 176 147  Paint - Orange
 236 221 147  Paint - Yellow
@@ -18,7 +18,8 @@ Columns: 8
 147 236 221  Paint - Cyan
 147 162 236  Paint - Blue
 221 147 236  Paint - Purple
-  0   0   0  Trace - Black
+175 175 175  Paint - Gray
+
 184  20  61  Trace - Red
 184  61  20  Trace - Orange
 184 143  20  Trace - Yellow
@@ -26,3 +27,13 @@ Columns: 8
  20 184 143  Trace - Cyan
  20  61 184  Trace - Blue
 143  20 184  Trace - Purple
+ 74  74  74  Trace - Gray
+
+255   0   0  RGB - Red
+255 255 255  RGB - White
+255 255   0  RGB - Yellow
+  0 255   0  RGB - Green
+  0 255 255  RGB - Cyan
+  0   0 255  RGB - Blue
+255   0 255  RGB - Magenta
+  0   0   0  RGB - Black

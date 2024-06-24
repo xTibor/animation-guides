@@ -27,20 +27,20 @@
                 }
             },
             "pal-oklch": {
-                columns: [0, 30, 60, 120, 180, 240, 300],
+                columns: [20, 60, 100, 140, 195, 265, 330],
                 rows: [
-                    [96.6,  6.5, 0], // Paper
-                    [79.1,  5.0, 0], // Paint
-                    [50.0, 80.0, 0], // Trace
+                    [90.40, 0.032,  0], // Paper
+                    [75.81, 0.108, -3], // Paint
+                    [50.39, 0.192, -6], // Trace
                 ],
                 color: (hue, [lightness, chroma, hue_shift]) => {
-                    return `oklch(${lightness}% ${chroma}% ${hue + hue_shift}deg)`;
+                    return `oklch(${lightness}% ${chroma} ${hue + hue_shift}deg)`;
                 }
             },
         };
 
         window.addEventListener("DOMContentLoaded", () => {
-            const current_palette = palettes["pal-hsl"];
+            const current_palette = palettes["pal-oklch"];
 
             const palette_container = document.getElementById("palette_container");
             palette_container.style.gridTemplateColumns = `repeat(${current_palette.columns.length}, 1fr)`;
