@@ -5,9 +5,6 @@
     <style>
         body {
             margin: 0;
-        }
-
-        #palette_container {
             display: grid;
             width: 100vw;
             height: 100vh;
@@ -42,21 +39,19 @@
         window.addEventListener("DOMContentLoaded", () => {
             const current_palette = palettes["pal-oklch"];
 
-            const palette_container = document.getElementById("palette_container");
-            palette_container.style.gridTemplateColumns = `repeat(${current_palette.columns.length}, 1fr)`;
-            palette_container.style.gridTemplateRows = `repeat(${current_palette.rows.length}, 1fr)`;
+            document.body.style.gridTemplateColumns = `repeat(${current_palette.columns.length}, 1fr)`;
+            document.body.style.gridTemplateRows = `repeat(${current_palette.rows.length}, 1fr)`;
 
             for (const row of current_palette.rows) {
                 for (const column of current_palette.columns) {
                     let color_swatch = document.createElement("div");
                     color_swatch.style.backgroundColor = current_palette.color(column, row);
-                    palette_container.appendChild(color_swatch);
+                    document.body.appendChild(color_swatch);
                 }
             }
         })
     </script>
 </head>
 <body>
-    <div id="palette_container"></div>
 </body>
 </html>
