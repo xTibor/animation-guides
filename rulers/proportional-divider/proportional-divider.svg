@@ -148,7 +148,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        d="M 0,10 0.08271195,9.958644 A 94.32963,94.32963 166.71747 0 1 42.268205,0 H 262.92893 A 17.07106,17.07106 22.500014 0 1 275,5.0000036 17.071035,17.071035 22.500014 0 0 287.07105,10 H 300 a 94.721441,94.721441 166.71748 0 1 -42.3607,10 l -220.568232,1e-6 A 17.071067,17.071067 22.500001 0 1 25,15.000001 l 0,0 A 17.071068,17.071068 22.500001 0 0 12.928932,10 Z"
        id="path1"
        sodipodi:nodetypes="ccccccccc"
@@ -158,22 +158,22 @@
        id="g4"
        transform="rotate(45,85.125632,106.87185)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:butt;stroke-miterlimit:2.8;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;paint-order:stroke fill markers"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-miterlimit:2.8;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;paint-order:stroke fill markers"
        d="M 0,10 H 300"
        id="path5"
        sodipodi:nodetypes="cc" />
@@ -203,17 +203,17 @@
        id="g4-2"
        transform="rotate(45,60.12563,46.516507)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-8"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-9" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-7" />
     </g>
@@ -221,17 +221,17 @@
        id="g4-29"
        transform="rotate(45,47.625631,16.338836)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-3"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-1" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-9" />
     </g>
@@ -239,17 +239,17 @@
        id="g4-4"
        transform="rotate(45,40.125631,-1.7677639)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-5"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-0" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-3" />
     </g>
@@ -257,17 +257,17 @@
        id="g4-6"
        transform="rotate(45,35.125631,-13.838832)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-32"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-06" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-1" />
     </g>
@@ -275,17 +275,17 @@
        id="g4-7"
        transform="rotate(45,31.554202,-22.461025)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-6"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-6" />
     </g>
@@ -337,17 +337,17 @@
        id="g4-7-0"
        transform="rotate(45,26.792296,-33.957282)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-6-6"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-5-8" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-6-9" />
     </g>
@@ -366,17 +366,17 @@
        id="g4-27"
        transform="rotate(45,70.125631,70.658644)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-2"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-2" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-61" />
     </g>
@@ -439,17 +439,17 @@
        id="g4-2-0"
        transform="rotate(45,52.982774,29.272126)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-8-8"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-9-8" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-7-5" />
     </g>
@@ -468,17 +468,17 @@
        id="g4-1"
        transform="rotate(45,97.993627,137.93794)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-0"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-3" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-0" />
     </g>
@@ -486,17 +486,17 @@
        id="g4-1-4"
        transform="rotate(45,102.83073,149.61574)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-0-7"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-3-6" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-0-3" />
     </g>
@@ -504,17 +504,17 @@
        id="g4-1-4-9"
        transform="rotate(45,123.90768,200.5)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-0-7-6"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-3-6-2" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-0-3-1" />
     </g>
@@ -522,17 +522,17 @@
        id="g4-1-4-9-7"
        transform="rotate(45,139.53025,238.21621)">
       <circle
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          id="path2-0-7-6-4"
          cx="62.5"
          cy="-7.5000005"
          r="2.5" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 62.499999,-10 v 4.9999995"
          id="path3-3-6-2-1" />
       <path
-         style="fill:none;fill-rule:evenodd;stroke:#100f0f;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-0-3-1-8" />
     </g>
