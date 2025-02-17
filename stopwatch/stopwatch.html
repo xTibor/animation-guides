@@ -119,7 +119,7 @@
                 }
             }
 
-            let stopwatch_state, stopwatch_style, stopwatch_start, stopwatch_request;
+            let stopwatch_state, stopwatch_style, stopwatch_elapsed, stopwatch_start, stopwatch_request;
 
             function stopwatch_initialize() {
                 cancelAnimationFrame(stopwatch_request);
@@ -201,7 +201,7 @@
                 $("stopwatch_container").replaceChildren();
 
                 for (const [dial_position, dial_url] of stopwatch_styles[stopwatch_style]["dials"]) {
-                    let dial_elem = document.createElement('img');
+                    const dial_elem = document.createElement("img");
                     dial_elem.src = dial_url + viewbox_correction_param;
                     dial_elem.style.transform = position_to_transform(dial_position);
                     dial_elem.draggable = false;
@@ -209,7 +209,7 @@
                 }
 
                 for (const [hand_index, [hand_sweep, hand_phase, hand_position, hand_url]] of stopwatch_styles[stopwatch_style]["hands"].entries()) {
-                    let hand_elem = document.createElement('img');
+                    const hand_elem = document.createElement("img");
                     hand_elem.id = `stopwatch_hand_${hand_index}`;
                     hand_elem.src = hand_url + viewbox_correction_param;
                     hand_elem.draggable = false;
@@ -223,13 +223,13 @@
                 window.addEventListener("hashchange", stopwatch_initialize);
 
                 document.addEventListener("keypress", (e) => {
-                    let command = (e.code != "Space") ? "reset" : "resume";
+                    const command = (e.code != "Space") ? "reset" : "resume";
                     stopwatch_input(command);
                 });
 
                 $("stopwatch_container").addEventListener("click", (e) => {
-                    let y = e.offsetY / e.srcElement.clientHeight;
-                    let command = (y < 0.5) ? "reset" : "resume";
+                    const y = e.offsetY / e.srcElement.clientHeight;
+                    const command = (y < 0.5) ? "reset" : "resume";
                     stopwatch_input(command);
                 });
             });
