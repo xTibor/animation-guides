@@ -30,6 +30,7 @@
                 width: 100%;
                 height: 100%;
                 user-select: none;
+                pointer-events: none;
                 transition: inherit;
             }
         </style>
@@ -125,6 +126,7 @@
 
                 stopwatch_state = 0;
                 stopwatch_style = null;
+                stopwatch_elapsed = 0;
                 stopwatch_start = null;
                 stopwatch_request = null;
 
@@ -153,12 +155,13 @@
 
             function stopwatch_tick() {
                 stopwatch_request = requestAnimationFrame(stopwatch_tick);
-                stopwatch_set_elapsed_time(performance.now() - stopwatch_start);
+                stopwatch_set_elapsed_time(stopwatch_elapsed + (performance.now() - stopwatch_start));
             }
 
-            function stopwatch_input() {
+            function stopwatch_input(command) {
                 switch (stopwatch_state) {
                     case 0:
+                        stopwatch_elapsed = 0;
                         stopwatch_start = performance.now();
                         stopwatch_request = requestAnimationFrame(stopwatch_tick);
                         $("stopwatch_container").style.transition = "none";
@@ -166,13 +169,22 @@
                         break;
                     case 1:
                         cancelAnimationFrame(stopwatch_request);
+                        stopwatch_elapsed += performance.now() - stopwatch_start;
                         stopwatch_state = 2;
                         break;
                     case 2:
-                        stopwatch_set_elapsed_time(0.0);
-                        $("stopwatch_container").style.transition = "0.1s transform";
-                        stopwatch_state = 0;
-                        break;
+                        switch (command) {
+                            case "reset":
+                                stopwatch_set_elapsed_time(0.0);
+                                $("stopwatch_container").style.transition = "0.1s transform";
+                                stopwatch_state = 0;
+                                break;
+                            case "resume":
+                                stopwatch_start = performance.now();
+                                stopwatch_request = requestAnimationFrame(stopwatch_tick);
+                                stopwatch_state = 1;
+                                break;
+                        }
                 }
             }
 
@@ -209,8 +221,17 @@
                 stopwatch_initialize();
 
                 window.addEventListener("hashchange", stopwatch_initialize);
-                document.addEventListener("keypress", stopwatch_input);
-                $("stopwatch_container").addEventListener("click", stopwatch_input);
+
+                document.addEventListener("keypress", (e) => {
+                    let command = (e.code != "Space") ? "reset" : "resume";
+                    stopwatch_input(command);
+                });
+
+                $("stopwatch_container").addEventListener("click", (e) => {
+                    let y = e.offsetY / e.srcElement.clientHeight;
+                    let command = (y < 0.5) ? "reset" : "resume";
+                    stopwatch_input(command);
+                });
             });
         </script>
     </head>
