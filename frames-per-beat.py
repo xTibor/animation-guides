@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from svg_utils import svg_format_float
+from svg_utils import format_float
 
 ################################################################################
 # BPM calculation
@@ -37,7 +37,7 @@ def calculate_bpm(fps, bpm_filter):
 def output_format_human(bpm_results):
     for [bpm, frames_per_beat] in bpm_results:
         print("{:>7} bpm -> {:>2} frames/beat".format(
-            svg_format_float(bpm),
+            format_float(bpm),
             frames_per_beat,
         ))
 

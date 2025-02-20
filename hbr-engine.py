@@ -4,7 +4,7 @@ import argparse
 import os
 from textwrap import dedent
 
-from svg_utils import svg_style, svg_format_float, copy_to_clipboard
+from svg_utils import svg_style, format_float, copy_to_clipboard
 
 ################################################################################
 # Constants
@@ -87,13 +87,13 @@ def create_hbr_guide(body_ratios, guide_style):
                 svg_data = ""
                 for ([(x1, y1), (x2, y2)], mirror) in lines:
                     svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-                        x1 = svg_format_float(x1), y1 = svg_format_float(y1),
-                        x2 = svg_format_float(x2), y2 = svg_format_float(y2),
+                        x1 = format_float(x1), y1 = format_float(y1),
+                        x2 = format_float(x2), y2 = format_float(y2),
                     )
                     if mirror:
                         svg_data += '<line class="secondary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-                            x1 = svg_format_float(-x1), y1 = svg_format_float(y1),
-                            x2 = svg_format_float(-x2), y2 = svg_format_float(y2),
+                            x1 = format_float(-x1), y1 = format_float(y1),
+                            x2 = format_float(-x2), y2 = format_float(y2),
                         )
                 return svg_data
 
@@ -110,10 +110,10 @@ def create_hbr_guide(body_ratios, guide_style):
             match guide_style:
                 case "figure":
                     svg_contents += '<ellipse class="secondary" cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" />'.format(
-                        cx = svg_format_float(head_width  * 0.0),
-                        cy = svg_format_float(head_height * 0.5),
-                        rx = svg_format_float(head_width  * 0.5),
-                        ry = svg_format_float(head_height * 0.5),
+                        cx = format_float(head_width  * 0.0),
+                        cy = format_float(head_height * 0.5),
+                        rx = format_float(head_width  * 0.5),
+                        ry = format_float(head_height * 0.5),
                     )
 
                     svg_contents += draw_lines([
@@ -127,9 +127,9 @@ def create_hbr_guide(body_ratios, guide_style):
                     ])
                 case "simple":
                     svg_contents += '<circle class="secondary" cx="{cx}" cy="{cy}" r="{r}" />'.format(
-                        cx = svg_format_float(svg_content_width * 0.0),
-                        cy = svg_format_float(svg_content_width * 0.5),
-                        r  = svg_format_float(svg_content_width * 0.5),
+                        cx = format_float(svg_content_width * 0.0),
+                        cy = format_float(svg_content_width * 0.5),
+                        r  = format_float(svg_content_width * 0.5),
                     )
 
             # Body
@@ -173,9 +173,9 @@ def create_hbr_guide(body_ratios, guide_style):
                     </g>
                 </svg>
             """).format(
-                svg_width    = svg_format_float(svg_width),
-                svg_height   = svg_format_float(svg_height),
-                svg_vbox_x   = svg_format_float(-svg_width / 2),
+                svg_width    = format_float(svg_width),
+                svg_height   = format_float(svg_height),
+                svg_vbox_x   = format_float(-svg_width / 2),
                 svg_style    = svg_style,
                 svg_contents = svg_contents,
             )
@@ -192,13 +192,13 @@ def create_hbr_guide(body_ratios, guide_style):
 
             for t in line_positions:
                 svg_contents += '<line class="primary" x1="0" y1="576" x2="576" y2="{y}" />'.format(
-                    y = svg_format_float(t * 576),
+                    y = format_float(t * 576),
                 )
 
             for t in map(lambda line: line / 12, range(1, 12)):
                 svg_contents += '<line class="secondary" x1="{x}" y1="{y}" x2="{x}" y2="576" />'.format(
-                    x = svg_format_float(t * 576),
-                    y = svg_format_float(576 - (t * 576)),
+                    x = format_float(t * 576),
+                    y = format_float(576 - (t * 576)),
                 )
 
             return dedent("""\

@@ -5,7 +5,7 @@ import os
 from math import sin, cos, radians, pi, sqrt
 from textwrap import dedent
 
-from svg_utils import svg_style, svg_format_float, copy_to_clipboard
+from svg_utils import svg_style, format_float, copy_to_clipboard
 
 ################################################################################
 # Easing functions
@@ -96,16 +96,16 @@ def svg_circle_arc(style_class, arc_degrees, arc_radius):
 
     x, y = svg_circle_arc_point(0, arc_radius)
     arc_path_data = "M{x} {y}".format(
-        x = svg_format_float(x),
-        y = svg_format_float(y),
+        x = format_float(x),
+        y = format_float(y),
     )
 
     for l in range(0, arc_resolution):
         x, y = svg_circle_arc_point(l / (arc_resolution - 1) * arc_degrees, arc_radius)
         arc_path_data += " A {arc_radius} {arc_radius} 0 0 0 {x} {y}".format(
-            arc_radius = svg_format_float(arc_radius),
-            x = svg_format_float(x),
-            y = svg_format_float(y),
+            arc_radius = format_float(arc_radius),
+            x = format_float(x),
+            y = format_float(y),
         )
 
     return '<path class="{}" d="{}" />'.format(style_class, arc_path_data)
@@ -119,7 +119,7 @@ def create_svg_ruler_simple_straight(easing_function, **kwargs):
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(0, ruler_frames)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="{x}" y2="24" />'.format(
-            x = svg_format_float(easing_function(t) * 576),
+            x = format_float(easing_function(t) * 576),
         )
 
     return dedent("""\
@@ -151,10 +151,10 @@ def create_svg_ruler_simple_radial(easing_function, **kwargs):
         x1, y1 = svg_circle_arc_point(arc_degrees, ruler_outer_radius - ruler_tick_size / 2)
         x2, y2 = svg_circle_arc_point(arc_degrees, ruler_outer_radius + ruler_tick_size / 2)
         svg_contents += '<line class="primary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-            x1 = svg_format_float(x1),
-            y1 = svg_format_float(y1),
-            x2 = svg_format_float(x2),
-            y2 = svg_format_float(y2),
+            x1 = format_float(x1),
+            y1 = format_float(y1),
+            x2 = format_float(x2),
+            y2 = format_float(y2),
         )
 
     return dedent("""\
@@ -175,14 +175,14 @@ def create_svg_ruler_printable_straight(easing_function, **kwargs):
     svg_contents = ""
     for t in map(lambda line: line / (ruler_frames - 1), range(1, ruler_frames - 1)):
         svg_contents += '<line class="primary" x1="{x}" y1="0" x2="288" y2="384" />'.format(
-            x = svg_format_float(easing_function(t) * 576),
+            x = format_float(easing_function(t) * 576),
         )
 
     for t in map(lambda line: line / 12, range(1, 12)):
         svg_contents += '<line class="secondary" x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" />'.format(
-            x1 = svg_format_float(t * 288),
-            x2 = svg_format_float(576 - (t * 288)),
-            y = svg_format_float(t * 384),
+            x1 = format_float(t * 288),
+            x2 = format_float(576 - (t * 288)),
+            y = format_float(t * 384),
         )
     svg_contents += '<line class="secondary" x1="288" y1="0" x2="288" y2="384" />'
 
@@ -217,10 +217,10 @@ def create_svg_ruler_printable_radial(easing_function, **kwargs):
         x1, y1 = svg_circle_arc_point(arc_degrees, ruler_inner_radius)
         x2, y2 = svg_circle_arc_point(arc_degrees, ruler_outer_radius)
         svg_contents += '<line class="primary" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" />'.format(
-            x1 = svg_format_float(x1),
-            y1 = svg_format_float(y1),
-            x2 = svg_format_float(x2),
-            y2 = svg_format_float(y2),
+            x1 = format_float(x1),
+            y1 = format_float(y1),
+            x2 = format_float(x2),
+            y2 = format_float(y2),
         )
 
     return dedent("""\
@@ -246,8 +246,8 @@ def create_svg_function_graph(easing_function, **kwargs):
     polyline_data = ""
     for t in map(lambda p: p / polyline_resolution, range(0, polyline_resolution + 1)):
         polyline_data += "{x},{y} ".format(
-            x = svg_format_float(t * 576),
-            y = svg_format_float(576 - easing_function(t) * 576),
+            x = format_float(t * 576),
+            y = format_float(576 - easing_function(t) * 576),
         )
 
     svg_contents = '<polyline class="primary" points="{}" />'.format(polyline_data)

@@ -18,8 +18,8 @@ svg_style = """
     </style>
 """
 
-def svg_format_float(number):
-    return "{:.3f}".format(number).rstrip("0").rstrip(".")
+def format_float(number, precision = 3):
+    return "{0:.{1}f}".format(number, precision).rstrip("0").rstrip(".")
 
 def copy_to_clipboard(clipboard_data, mime_type):
     import subprocess
