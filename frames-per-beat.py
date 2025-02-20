@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from svg_utils import format_float
+from svg_utils import format_float, copy_to_clipboard
 
 ################################################################################
 # BPM calculation
@@ -35,19 +35,22 @@ def calculate_bpm(fps, bpm_filter):
 # Output formatters
 
 def output_format_human(bpm_results):
+    bpm_document = ""
     for [bpm, frames_per_beat] in bpm_results:
-        print("{:>7} bpm -> {:>2} frames/beat".format(
+        bpm_document += "{:>7} bpm -> {:>2} frames/beat\n".format(
             format_float(bpm),
             frames_per_beat,
-        ))
+        )
+    return bpm_document.rstrip("\n"), "text/plain"
 
 def output_format_csv(bpm_results):
-    print("bpm, frames_per_beat")
+    bpm_document = "bpm,frames_per_beat\n"
     for [bpm, frames_per_beat] in bpm_results:
-        print("{}, {}".format(
+        bpm_document += "{},{}\n".format(
             bpm,
             frames_per_beat,
-        ))
+        )
+    return bpm_document.rstrip("\n"), "text/plain"
 
 output_formatters = {
     "human": output_format_human,
@@ -58,17 +61,24 @@ output_formatters = {
 # Main
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--command",       type = str,                  )
-parser.add_argument("--fps",           type = int, default = 24     )
-parser.add_argument("--bpm-filter",    type = str, default = "round")
-parser.add_argument("--output-format", type = str, default = "human")
+parser.add_argument("--command",       type = str,                   )
+parser.add_argument("--fps",           type = int, default = 24      )
+parser.add_argument("--bpm-filter",    type = str, default = "round" )
+parser.add_argument("--output-format", type = str, default = "human" )
+parser.add_argument("--target",        type = str, default = "stdout")
 
 args = parser.parse_args()
 
 match args.command:
     case "calculate-bpm":
         bpm_results = calculate_bpm(args.fps, args.bpm_filter)
-        output_formatters[args.output_format](bpm_results)
+        bpm_document, mime_type = output_formatters[args.output_format](bpm_results)
+
+        match args.target:
+            case "stdout":
+                print(bpm_document)
+            case "clipboard":
+                copy_to_clipboard(bpm_document, mime_type)
 
     case "query-bpm-filters":
         for (bpm_filter_name, bpm_filter) in bpm_filters.items():
