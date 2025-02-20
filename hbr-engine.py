@@ -4,7 +4,7 @@ import argparse
 import os
 from textwrap import dedent
 
-from svg_utils import svg_style, svg_format_float, svg_to_clipboard
+from svg_utils import svg_style, svg_format_float, copy_to_clipboard
 
 ################################################################################
 # Constants
@@ -232,7 +232,7 @@ match args.command:
             case "stdout":
                 print(svg_document)
             case "clipboard":
-                svg_to_clipboard(svg_document)
+                copy_to_clipboard(svg_document, "image/svg+xml")
 
     case "query-guide-styles":
         for guide_style in guide_styles:

@@ -4,7 +4,7 @@ import argparse
 import os
 from textwrap import dedent
 
-from svg_utils import svg_to_clipboard
+from svg_utils import copy_to_clipboard
 
 ################################################################################
 # Constants
@@ -131,7 +131,7 @@ match args.command:
             case "stdout":
                 print(svg_document)
             case "clipboard":
-                svg_to_clipboard(svg_document)
+                copy_to_clipboard(svg_document, "image/svg+xml")
 
     case "query-fiducial-styles":
         for (fiducial_style, fiducial_callback) in fiducial_styles.items():

@@ -21,10 +21,10 @@ svg_style = """
 def svg_format_float(number):
     return "{:.3f}".format(number).rstrip("0").rstrip(".")
 
-def svg_to_clipboard(svg_document):
+def copy_to_clipboard(clipboard_data, mime_type):
     import subprocess
     subprocess.run(
-        ["xclip", "-selection", "clipboard", "-t", "image/svg+xml"],
+        ["xclip", "-selection", "clipboard", "-t", mime_type],
         encoding = "utf-8",
-        input = svg_document,
+        input = clipboard_data,
     )
