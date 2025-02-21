@@ -819,17 +819,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="61.55159"
-       y="11.944562"
-       id="text5-20-0-4-91"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="61.55159"
-         y="11.944562">TITLE</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-miterlimit:2.8;stroke-dasharray:0.264583, 1.05833;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect9"
@@ -859,17 +848,6 @@
        x="9"
        y="64"
        sodipodi:type="rect" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="30.925915"
-       y="62.945885"
-       id="text5-20-0-4-4-8-4-2"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="30.925915"
-         y="62.945885">NORMAL</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6"
@@ -877,17 +855,6 @@
        height="4.0000005"
        x="9"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="77.976189"
-       y="62.945885"
-       id="text5-20-0-4-4-8-4-2-6"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="77.976189"
-         y="62.945885">CLOSED EYES</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-8"
@@ -895,17 +862,6 @@
        height="4.0000005"
        x="56"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="124.99206"
-       y="62.945885"
-       id="text5-20-0-4-4-8-4-2-0"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="124.99206"
-         y="62.945885">SERIOUS</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-3"
@@ -913,17 +869,6 @@
        height="4.0000005"
        x="103"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="171.88092"
-       y="62.948532"
-       id="text5-20-0-4-4-8-4-2-6-7"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-1-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="171.88092"
-         y="62.948532">HAPPY</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-8-9"
@@ -931,17 +876,6 @@
        height="4.0000005"
        x="149.99998"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="218.95767"
-       y="62.944561"
-       id="text5-20-0-4-4-8-4-2-9"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="218.95767"
-         y="62.944561">FRUSTRATED</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-36"
@@ -949,17 +883,6 @@
        height="4.0000005"
        x="197"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="266.14288"
-       y="62.945885"
-       id="text5-20-0-4-4-8-4-2-6-1"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-1-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="266.14288"
-         y="62.945885">JOYFUL</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-8-93"
@@ -967,17 +890,6 @@
        height="4.0000005"
        x="244"
        y="60" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="31.044977"
-       y="134.94456"
-       id="text5-20-0-4-4-8-4-2-7"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-8"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="31.044977"
-         y="134.94456">SCREAMING</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-4"
@@ -985,17 +897,6 @@
        height="4.0000005"
        x="9"
        y="132" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="78.015877"
-       y="134.94456"
-       id="text5-20-0-4-4-8-4-2-6-5"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-4-6-1-7-1-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="78.015877"
-         y="134.94456">SURPRISED</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-6-3-5-3-6-8-3"
@@ -1119,17 +1020,6 @@
        x="244"
        y="136"
        sodipodi:type="rect" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="166.42326"
-       y="11.944562"
-       id="text5-20-0-4-91-8"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="166.42326"
-         y="11.944562">CHARACTER</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-8-3-9-2-4-2"
@@ -1165,6 +1055,51 @@
        height="4"
        x="255.99997"
        y="9.000001" />
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect8-3-1-2-8"
+       width="32"
+       height="12"
+       x="255.99997"
+       y="13.000001" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 273.99998,14.000001 -4,9.999999"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="61.55159"
+       y="11.944562"
+       id="text5-20-0-4-91"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="61.55159"
+         y="11.944562">TITLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="166.42326"
+       y="11.944562"
+       id="text5-20-0-4-91-8"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="166.42326"
+         y="11.944562">CHARACTER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.38094"
+       y="11.944561"
+       id="text5-20-0-4-91-6-8-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-0-7-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="237.38094"
+         y="11.944561">DESIGNER</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
@@ -1179,25 +1114,90 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="237.38094"
-       y="11.944561"
-       id="text5-20-0-4-91-6-8-3-2"><tspan
+       x="30.925915"
+       y="62.945885"
+       id="text5-20-0-4-4-8-4-2"><tspan
          sodipodi:role="line"
-         id="tspan5-2-6-7-2-0-7-7-2"
+         id="tspan5-2-6-7-4-6-1-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="237.38094"
-         y="11.944561">DESIGNER</tspan></text>
-    <rect
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
-       id="rect8-3-1-2-8"
-       width="32"
-       height="12"
-       x="255.99997"
-       y="13.000001" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
-       d="m 273.99998,14.000001 -4,9.999999"
-       id="path2"
-       sodipodi:nodetypes="cc" />
+         x="30.925915"
+         y="62.945885">NORMAL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="77.976189"
+       y="62.945885"
+       id="text5-20-0-4-4-8-4-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="77.976189"
+         y="62.945885">CLOSED EYES</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="124.99206"
+       y="62.945885"
+       id="text5-20-0-4-4-8-4-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="124.99206"
+         y="62.945885">SERIOUS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="171.88092"
+       y="62.948532"
+       id="text5-20-0-4-4-8-4-2-6-7"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-1-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="171.88092"
+         y="62.948532">HAPPY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="218.95767"
+       y="62.944561"
+       id="text5-20-0-4-4-8-4-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="218.95767"
+         y="62.944561">FRUSTRATED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.14288"
+       y="62.945885"
+       id="text5-20-0-4-4-8-4-2-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-1-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="266.14288"
+         y="62.945885">JOYFUL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="31.044977"
+       y="134.94456"
+       id="text5-20-0-4-4-8-4-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="31.044977"
+         y="134.94456">SCREAMING</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="78.015877"
+       y="134.94456"
+       id="text5-20-0-4-4-8-4-2-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-4-6-1-7-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="78.015877"
+         y="134.94456">SURPRISED</tspan></text>
   </g>
 </svg>

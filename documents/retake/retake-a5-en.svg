@@ -96,50 +96,6 @@
        cy="15"
        rx="7.9999995"
        ry="8" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="12.999999"
-       y="19.284"
-       id="text4"><tspan
-         sodipodi:role="line"
-         id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="12.999999"
-         y="19.284">R</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="72.05159"
-       y="7.9445615"
-       id="text5-20-0-4-91"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="72.05159"
-         y="7.9445615">TITLE</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="60.949726"
-       y="23.944565"
-       id="text5-20-0-4-91-6"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="60.949726"
-         y="23.944565">CUT</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="130.95898"
-       y="7.9458871"
-       id="text5-20-0-4-91-3"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="130.95898"
-         y="7.9458871">EPISODE</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-8-3-9"
@@ -182,17 +138,6 @@
        height="4"
        x="24.999998"
        y="5" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="37.017197"
-       y="23.944565"
-       id="text5-20-0-4-91-6-5"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2-0-3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="37.017197"
-         y="23.944565">SCENE</tspan></text>
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect8-3-1-2-8-3-9-5"
@@ -207,17 +152,6 @@
        height="3.9999998"
        x="25"
        y="21.000004" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
-       x="89.05159"
-       y="23.944561"
-       id="text5-20-0-4-91-6-8"><tspan
-         sodipodi:role="line"
-         id="tspan5-2-6-7-2-0-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="89.05159"
-         y="23.944561">TIME</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
        d="m 91.500025,31 -5.00006,4e-6"
@@ -263,6 +197,72 @@
        height="164"
        x="5"
        y="41" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="12.999999"
+       y="19.284"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="12.999999"
+         y="19.284">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="72.05159"
+       y="7.9445615"
+       id="text5-20-0-4-91"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="72.05159"
+         y="7.9445615">TITLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="130.95898"
+       y="7.9458871"
+       id="text5-20-0-4-91-3"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="130.95898"
+         y="7.9458871">EPISODE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="37.017197"
+       y="23.944565"
+       id="text5-20-0-4-91-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-0-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="37.017197"
+         y="23.944565">SCENE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="60.949726"
+       y="23.944565"
+       id="text5-20-0-4-91-6"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="60.949726"
+         y="23.944565">CUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="89.05159"
+       y="23.944561"
+       id="text5-20-0-4-91-6-8"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-6-7-2-0-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="89.05159"
+         y="23.944561">TIME</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.64583px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
