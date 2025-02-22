@@ -79,19 +79,23 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 209.55,-7.6200018 h 10.4775 V -1.9073486e-6"
-       id="path1" />
+       d="m 209.55,-10.477499 h 10.4775 l 0,10.4774970926514"
+       id="path1"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
-       d="M -10.477498,-1.9073486e-6 V -7.6200018 H 1.9073486e-6"
-       id="path2" />
+       d="M -10.477498,-1.9073486e-6 -10.477497,-10.477502 H 2.8065185e-6"
+       id="path2"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m -10.477498,152.39999 v 7.62 H 1.9073486e-6"
-       id="path3" />
+       d="m -10.477498,152.39999 0,10.4775 H 1.8528442e-6"
+       id="path3"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
-       d="m 209.55,160.01999 h 10.4775 v -7.62"
-       id="path4" />
+       d="m 209.55,162.87749 h 10.4775 l 0,-10.4775"
+       id="path4"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

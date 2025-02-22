@@ -79,23 +79,23 @@
        sodipodi:nodetypes="cc" />
     <path
        id="rect1"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linejoin:miter;stroke-linecap:butt"
-       d="M -10.159989,0 V -7.6199999 H 0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
+       d="m -10.16,0 -1.3e-5,-10.160013 H 0"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect2"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linejoin:miter;stroke-linecap:butt"
-       d="m 203.2,-7.6199999 h 10.16001 V 0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
+       d="m 203.2,-10.160013 h 10.16002 V 0"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect3"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linejoin:miter;stroke-linecap:butt"
-       d="M 213.36001,152.39999 V 160.02 H 203.2"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
+       d="m 213.36002,152.39999 v 10.16002 H 203.2"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect4"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linejoin:miter;stroke-linecap:butt"
-       d="m 0,160.02 h -10.159989 v -7.62001"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
+       d="m 0,162.56001 h -10.160013 l 2.4e-5,-10.16002"
        sodipodi:nodetypes="ccc" />
   </g>
 </svg>
