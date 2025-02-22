@@ -55,14 +55,14 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:miter"
        id="rect1163"
        width="364.23599"
        height="152.39999"
        x="0"
        y="0" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0;stroke-linejoin:miter"
        id="rect1163-3"
        width="327.81238"
        height="137.15999"
@@ -80,22 +80,22 @@
        sodipodi:nodetypes="cc" />
     <path
        id="rect1"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:round"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
        d="M -18.2118,0 V -7.6199999 H 0"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect2"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:round"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
        d="m 0,160.02 h -18.2118 v -7.62001"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect3"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:round"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
        d="M 364.23599,-7.6199999 H 382.4478 V 0"
        sodipodi:nodetypes="ccc" />
     <path
        id="rect4"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:round"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529;stroke-linecap:butt;stroke-linejoin:miter"
        d="M 382.4478,152.39999 V 160.02 h -18.21181"
        sodipodi:nodetypes="ccc" />
   </g>
