@@ -7,8 +7,8 @@
    viewBox="0 0 209.55 152.4"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="fieldchart-1.375:1-100f-new.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="fieldchart-1.375:1-100f-fields-new.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,13 +36,19 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-text-baseline="true"
-     inkscape:snap-grids="true">
+     inkscape:snap-grids="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid822"
        spacingx="5.23875"
        spacingy="3.81"
-       empspacing="2" />
+       empspacing="2"
+       originx="0"
+       originy="0"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -127,6 +133,17 @@
        height="15.24"
        x="94.297501"
        y="68.580002" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-10.4775"
+       y="163.83"
+       id="text3013-6"><tspan
+         sodipodi:role="line"
+         id="tspan3011-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-10.4775"
+         y="163.83">110F</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
@@ -237,16 +254,5 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
          x="94.297501"
          y="87.629997">10F</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-10.4775"
-       y="163.83"
-       id="text3013-6"><tspan
-         sodipodi:role="line"
-         id="tspan3011-1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none"
-         x="-10.4775"
-         y="163.83">110F</tspan></text>
   </g>
 </svg>

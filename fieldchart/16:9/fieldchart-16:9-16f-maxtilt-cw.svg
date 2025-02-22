@@ -7,8 +7,8 @@
    viewBox="0 0 270.93332 152.40001"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="fieldchart-16:9-16field-maxtilt-cw.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="fieldchart-16:9-16f-maxtilt-cw.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -37,13 +37,19 @@
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:snap-grids="false">
+     inkscape:snap-grids="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid824"
        spacingx="4.2333334"
        spacingy="2.38125"
-       empspacing="2" />
+       empspacing="2"
+       originx="0"
+       originy="0"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -122,113 +128,6 @@
        x="78.359871"
        y="-91.151222"
        transform="rotate(49.315371)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="264.42987"
-       y="3.7627294"
-       id="text3013"><tspan
-         sodipodi:role="line"
-         id="tspan3011"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="264.42987"
-         y="3.7627294">16</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="258.77939"
-       y="3.3201861"
-       id="text3013-3"
-       transform="rotate(2.1722738)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="258.77939"
-         y="3.3201861">15</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="253.27486"
-       y="1.8893321"
-       id="text3013-3-7"
-       transform="rotate(4.7187018)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="253.27486"
-         y="1.8893321">14</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="248.08765"
-       y="-0.9246676"
-       id="text3013-3-7-3"
-       transform="rotate(7.7559286)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="248.08765"
-         y="-0.9246676">13</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="243.00388"
-       y="-5.6033373"
-       id="text3013-3-7-3-6"
-       transform="rotate(11.462004)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="243.00388"
-         y="-5.6033373">12</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="238.17827"
-       y="-13.057076"
-       id="text3013-3-7-3-6-9"
-       transform="rotate(16.130548)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5-2-1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="238.17827"
-         y="-13.057076">11</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="232.42365"
-       y="-24.783707"
-       id="text3013-3-7-3-6-9-2"
-       transform="rotate(22.30913)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5-2-1-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="232.42365"
-         y="-24.783707">10</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="226.20406"
-       y="-44.325497"
-       id="text3013-3-7-3-6-9-2-0"
-       transform="rotate(31.284498)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5-2-1-7-9"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="226.20406"
-         y="-44.325497">9</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
-       x="208.48531"
-       y="-87.386551"
-       id="text3013-3-7-3-6-9-2-0-3"
-       transform="rotate(49.315371)"><tspan
-         sodipodi:role="line"
-         id="tspan3011-6-5-5-2-1-7-9-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
-         x="208.48531"
-         y="-87.386551">8</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
@@ -336,5 +235,112 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
          x="81.485306"
          y="-15.949053">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="208.48531"
+       y="-87.386551"
+       id="text3013-3-7-3-6-9-2-0-3"
+       transform="rotate(49.315371)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5-2-1-7-9-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="208.48531"
+         y="-87.386551">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="226.20406"
+       y="-44.325497"
+       id="text3013-3-7-3-6-9-2-0"
+       transform="rotate(31.284498)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5-2-1-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="226.20406"
+         y="-44.325497">9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="232.42365"
+       y="-24.783707"
+       id="text3013-3-7-3-6-9-2"
+       transform="rotate(22.30913)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5-2-1-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="232.42365"
+         y="-24.783707">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="238.17827"
+       y="-13.057076"
+       id="text3013-3-7-3-6-9"
+       transform="rotate(16.130548)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="238.17827"
+         y="-13.057076">11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="243.00388"
+       y="-5.6033373"
+       id="text3013-3-7-3-6"
+       transform="rotate(11.462004)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="243.00388"
+         y="-5.6033373">12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="248.08765"
+       y="-0.9246676"
+       id="text3013-3-7-3"
+       transform="rotate(7.7559286)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="248.08765"
+         y="-0.9246676">13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="253.27486"
+       y="1.8893321"
+       id="text3013-3-7"
+       transform="rotate(4.7187018)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="253.27486"
+         y="1.8893321">14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="258.77939"
+       y="3.3201861"
+       id="text3013-3"
+       transform="rotate(2.1722738)"><tspan
+         sodipodi:role="line"
+         id="tspan3011-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="258.77939"
+         y="3.3201861">15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;stroke-width:0.264583"
+       x="264.42987"
+       y="3.7627294"
+       id="text3013"><tspan
+         sodipodi:role="line"
+         id="tspan3011"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88056px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';stroke-width:0.264583"
+         x="264.42987"
+         y="3.7627294">16</tspan></text>
   </g>
 </svg>
