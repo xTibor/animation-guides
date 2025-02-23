@@ -122,6 +122,20 @@
        orientation="1,0"
        id="guide14"
        inkscape:locked="false" />
+    <sodipodi:guide
+       position="192,9.9999998"
+       orientation="-1,0"
+       id="guide15"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="211.50442,9.9999998"
+       orientation="-1,0"
+       id="guide16"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
   </sodipodi:namedview>
   <defs
      id="defs1">
@@ -393,6 +407,42 @@
          d="m 59.999998,-7.5000003 h 5.000001"
          id="path4-0-3-1-8" />
     </g>
+    <g
+       id="g4-5-2"
+       transform="rotate(45,106.12563,157.57033)">
+      <circle
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="path2-35-6"
+         cx="62.5"
+         cy="-7.5000005"
+         r="2.5" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 62.499999,-10 v 4.9999995"
+         id="path3-6-1" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 59.999998,-7.5000003 h 5.000001"
+         id="path4-2-8" />
+    </g>
+    <g
+       id="g4-5-2-9"
+       transform="rotate(45,115.87784,181.11425)">
+      <circle
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="path2-35-6-2"
+         cx="62.5"
+         cy="-7.5000005"
+         r="2.5" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 62.499999,-10 v 4.9999995"
+         id="path3-6-1-2" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:2.8;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 59.999998,-7.5000003 h 5.000001"
+         id="path4-2-8-8" />
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:0.264583"
@@ -514,6 +564,28 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
          x="185.4102"
          y="6.000001">φ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:0.264583"
+       x="192"
+       y="6.000001"
+       id="text5-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="192"
+         y="6.000001">16:9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:0.264583"
+       x="211.50443"
+       y="6.000001"
+       id="text5-6-0-6"><tspan
+         sodipodi:role="line"
+         id="tspan5-2-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="211.50443"
+         y="6.000001">2.39:1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;stroke-width:0.264583"
