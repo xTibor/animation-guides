@@ -258,6 +258,12 @@
        width="265.1752"
        height="45.696568"
        id="rect2-79-7-8-6-5" />
+    <rect
+       x="287.98148"
+       y="520.83777"
+       width="265.1752"
+       height="45.696568"
+       id="rect2-79-7-8-6-5-7" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -341,11 +347,11 @@
        y="0"><tspan
          x="340.11751"
          y="531.11689"
-         id="tspan1">Allwin PVC Card Punch No.013 (3x15mm)
+         id="tspan7">Allwin PVC Card Punch No.013 (3x15mm)
 </tspan><tspan
          x="380.39342"
          y="547.11689"
-         id="tspan2">EAN: 6934599400726</tspan></text>
+         id="tspan12">EAN: 6934599400726</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.26458333,0.26458333,0,6.8648953,266.29469)"
@@ -355,11 +361,11 @@
        y="0"><tspan
          x="367.67743"
          y="530.71689"
-         id="tspan3">Generic Hole Punch (6mm)
+         id="tspan13">Generic Hole Punch (6mm)
 </tspan><tspan
          x="382.84943"
          y="545.9169"
-         id="tspan4">UPC: 782913365994</tspan></text>
+         id="tspan14">UPC: 782913365994</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.26458333,0.26458333,0,108.24923,266.2333)"
@@ -369,21 +375,25 @@
        y="0"><tspan
          x="340.11751"
          y="531.11689"
-         id="tspan5">Allwin PVC Card Punch No.013 (3x15mm)
+         id="tspan15">Allwin PVC Card Punch No.013 (3x15mm)
 </tspan><tspan
          x="380.39342"
          y="547.11689"
-         id="tspan6">EAN: 6934599400726</tspan></text>
+         id="tspan16">EAN: 6934599400726</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-64.336479,58.758766)"
-       id="text1-0-9-7-2"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:2;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2-79-7-8-6);display:inline"
+       transform="matrix(0.26458333,0,0,0.26458333,-64.391512,57.989359)"
+       id="text1-0-9-7-2-4-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:2;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2-79-7-8-6-5-7);display:inline"
        x="-34.355942"
        y="0"><tspan
          x="402.42137"
          y="531.11689"
-         id="tspan7">26.10mm</tspan></text>
+         id="tspan17">26.10mm
+</tspan><tspan
+         x="392.59738"
+         y="547.11689"
+         id="tspan18">Depth: 8.0mm</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-13.549295,51.92724)"
@@ -393,17 +403,21 @@
        y="0"><tspan
          x="386.80941"
          y="531.11689"
-         id="tspan8">4 inch (10.16mm)</tspan></text>
+         id="tspan19">4 inch (10.16mm)</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,37.252705,58.64234)"
+       transform="matrix(0.26458333,0,0,0.26458333,37.212488,57.989349)"
        id="text1-0-9-7"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:2;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2-79-7-8);display:inline"
        x="-34.355942"
        y="0"><tspan
          x="402.42137"
          y="531.11689"
-         id="tspan9">23.50mm</tspan></text>
+         id="tspan20">23.50mm
+</tspan><tspan
+         x="392.59738"
+         y="547.11689"
+         id="tspan21">Depth: 6.2mm</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,88.050705,51.92724)"
@@ -413,16 +427,20 @@
        y="0"><tspan
          x="386.80941"
          y="531.11689"
-         id="tspan10">4 inch (10.16mm)</tspan></text>
+         id="tspan22">4 inch (10.16mm)</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,138.86352,58.758766)"
+       transform="matrix(0.26458333,0,0,0.26458333,138.80849,57.989359)"
        id="text1-0-9-7-2-4"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;line-height:2;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2-79-7-8-6-5);display:inline"
        x="-34.355942"
        y="0"><tspan
          x="402.42137"
          y="531.11689"
-         id="tspan11">26.10mm</tspan></text>
+         id="tspan23">26.10mm
+</tspan><tspan
+         x="392.59738"
+         y="547.11689"
+         id="tspan24">Depth: 8.0mm</tspan></text>
   </g>
 </svg>
