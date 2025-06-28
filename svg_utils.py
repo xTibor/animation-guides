@@ -24,7 +24,7 @@ def format_float(number, precision = 3):
 def copy_to_clipboard(clipboard_data, mime_type):
     import subprocess
     subprocess.run(
-        ["xclip", "-selection", "clipboard", "-t", mime_type],
+        ["wl-copy", "--type", mime_type],
         encoding = "utf-8",
         input = clipboard_data,
     )
