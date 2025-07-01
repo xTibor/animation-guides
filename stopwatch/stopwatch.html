@@ -39,6 +39,7 @@
 
             const stopwatch_styles = {
                 "ghibli": {
+                    "fps": 24,
                     "dials": [
                         [[0.0,   0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, -38.0], "dial-small-01/dial-01.svg"],
@@ -50,6 +51,7 @@
                     ],
                 },
                 "ghibli-alt-01": {
+                    "fps": 24,
                     "dials": [
                         [[0.0,   0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, -38.0], "dial-small-01/dial-01.svg"],
@@ -62,6 +64,7 @@
                     ],
                 },
                 "ghibli-alt-02": {
+                    "fps": 24,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-01.svg"   ],
@@ -73,6 +76,7 @@
                     ],
                 },
                 "xt12": {
+                    "fps": 12,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-13.svg"   ],
@@ -83,6 +87,7 @@
                     ],
                 },
                 "xt16": {
+                    "fps": 16,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-14.svg"   ],
@@ -93,6 +98,7 @@
                     ],
                 },
                 "xt24": {
+                    "fps": 24,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-07.svg"   ],
@@ -103,6 +109,7 @@
                     ],
                 },
                 "xt25": {
+                    "fps": 25,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-10.svg"   ],
@@ -113,6 +120,7 @@
                     ],
                 },
                 "xt30": {
+                    "fps": 30,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-11.svg"   ],
@@ -123,6 +131,7 @@
                     ],
                 },
                 "xt50": {
+                    "fps": 50,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-12.svg"   ],
@@ -133,6 +142,7 @@
                     ],
                 },
                 "xt60": {
+                    "fps": 60,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-08.svg"   ],
@@ -143,6 +153,7 @@
                     ],
                 },
                 "xt100": {
+                    "fps": 100,
                     "dials": [
                         [[0.0, 0.0], "dial-large/dial-bg-01.svg"],
                         [[0.0, 0.0], "dial-large/dial-15.svg"   ],
@@ -227,6 +238,7 @@
                             case "reset":
                                 stopwatch_set_elapsed_time(0.0);
                                 $("stopwatch_container").style.transition = "0.1s transform";
+                                stopwatch_elapsed = 0;
                                 stopwatch_state = 0;
                                 break;
                             case "resume":
@@ -267,14 +279,30 @@
                 }
             }
 
+            function stopwatch_copy_elapsed_time() {
+                if ([0, 2].includes(stopwatch_state)) {
+                    const fps = stopwatch_styles[stopwatch_style]["fps"];
+                    const seconds = Math.floor(stopwatch_elapsed / 1000);
+                    const frames = Math.floor(((stopwatch_elapsed / 1000) % 1.0) * fps);
+                    navigator.clipboard.writeText(`${seconds}+${frames}k`);
+                }
+            }
+
             window.addEventListener("load", (e) => {
                 stopwatch_initialize();
 
                 window.addEventListener("hashchange", stopwatch_initialize);
 
-                document.addEventListener("keypress", (e) => {
-                    const command = (e.code != "Space") ? "reset" : "resume";
-                    stopwatch_input(command);
+                document.addEventListener("keydown", (e) => {
+                    if (e.ctrlKey && (e.key == "c")) {
+                        stopwatch_copy_elapsed_time();
+                        return;
+                    }
+
+                    if (!["Control", "Alt", "AltGraph", "Shift", "Meta"].includes(e.key)) {
+                        const command = (e.code != "Space") ? "reset" : "resume";
+                        stopwatch_input(command);
+                    }
                 });
 
                 $("stopwatch_container").addEventListener("click", (e) => {
